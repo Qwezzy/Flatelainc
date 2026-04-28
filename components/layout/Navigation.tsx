@@ -68,7 +68,7 @@ export default function Navigation() {
             aria-label="Flatela Inc. — return to top"
           >
             <Image
-              src="/flatela_logo_light.jpg"
+              src="/flatela_logo_dark.png"
               alt="Flatela Inc."
               width={120}
               height={40}
@@ -132,7 +132,7 @@ export default function Navigation() {
             >
               <div className="flex items-center justify-between mb-12">
                 <Image
-                  src="/flatela_logo_light.jpg"
+                  src="/flatela_logo_dark.png"
                   alt="Flatela Inc."
                   width={100}
                   height={36}

@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8 pb-12 border-b border-forest-mid">
           <div className="lg:col-span-1">
             <Image
-              src="/flatela_logo_dark.png"
+              src="/flatela_logo_light.jpg"
               alt="Flatela Inc. — a tree of life with deep roots and a full canopy."
               width={160}
               height={80}
