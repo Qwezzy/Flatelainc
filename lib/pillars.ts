@@ -1,0 +1,90 @@
+export const PILLARS = [
+  {
+    number: "01",
+    slug: "property",
+    name: "Property",
+    tagline: "Building spaces people are proud to call home.",
+    icon: "house" as const,
+    summary: `From renovation to managed rental portfolios, the Property division addresses South Africa's enduring need for quality, well-located housing. Acquired properties are renovated, furnished, and let — generating stable income while improving residential stock.`,
+    deepBullets: [
+      "End-to-end residential renovations",
+      "Buy-to-let rental portfolio in urban nodes",
+      "Solar installations integrated through Energy division",
+      "Furnished with imported pieces from Retail division",
+    ],
+  },
+  {
+    number: "02",
+    slug: "data",
+    name: "Data & Technology",
+    tagline: "Turning information into intelligent decisions.",
+    icon: "circuit" as const,
+    summary: `As businesses become data-driven, the Data division provides survey research, secure storage, machine learning, and end-to-end data management — POPIA-compliant and tailored to South African needs.`,
+    deepBullets: [
+      "Survey design, fieldwork, and reporting",
+      "POPIA-compliant cloud and on-premise storage",
+      "Custom machine learning for South African use cases",
+      "Data pipelines, governance, and BI infrastructure",
+    ],
+  },
+  {
+    number: "03",
+    slug: "retail",
+    name: "Retail",
+    tagline: "Bringing the world's best to South African homes.",
+    icon: "package" as const,
+    summary: `Direct importation of fashion goods and furniture from Asia and Europe, sold through e-commerce and wholesale channels. Furniture supply also feeds Property division renovations at preferential rates.`,
+    deepBullets: [
+      "Fashion apparel, footwear, and accessories",
+      "Furniture and homeware from China, Portugal, and beyond",
+      "Direct e-commerce + wholesale distribution",
+      "Preferential supply to Property and Travel divisions",
+    ],
+  },
+  {
+    number: "04",
+    slug: "travel",
+    name: "Travel",
+    tagline: "Journeys remembered for a lifetime.",
+    icon: "compass" as const,
+    summary: `A full-service travel agency for leisure and corporate travellers, with a specialised offering in school educational excursions — designed end-to-end with the Education division.`,
+    deepBullets: [
+      "Flights, hotels, visas, insurance, curated tours",
+      "Corporate travel management for SA businesses",
+      "Educational excursion packages for schools",
+      "Career Expo logistics in partnership with Education",
+    ],
+  },
+  {
+    number: "05",
+    slug: "energy",
+    name: "Energy",
+    tagline: "Powering South Africa with clean, reliable energy.",
+    icon: "sun" as const,
+    summary: `Residential and commercial solar PV, battery storage, and energy solutions — addressing one of the country's most urgent challenges. Drives near-term cash flow that funds the family's longer-horizon investments.`,
+    deepBullets: [
+      "Grid-tied, off-grid, and hybrid solar PV systems",
+      "Battery energy storage for load-shedding resilience",
+      "Energy audits, installation, and ongoing monitoring",
+      "Flagship installation at the Education Centre",
+    ],
+  },
+  {
+    number: "06",
+    slug: "education",
+    name: "Education",
+    tagline: "Unlocking potential, one community at a time.",
+    icon: "sprout" as const,
+    summary: `A community Education Centre offering computer literacy, robotics & STEM, vocational training, and career expos. Includes Flatela Verify — an educator background screening service serving Gauteng schools.`,
+    deepBullets: [
+      "Computer literacy and Internet Cafe",
+      "Robotics, coding, and STEM workshops",
+      "Locksmith vocational training and services",
+      "Flatela Verify — educator background screening",
+      "Career Expos in partnership with corporate sponsors",
+    ],
+  },
+] as const;
+
+export type PillarIcon = (typeof PILLARS)[number]["icon"];
+export type Pillar = (typeof PILLARS)[number];
