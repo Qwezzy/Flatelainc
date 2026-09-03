@@ -75,15 +75,23 @@ export const PILLARS = [
     name: "Education",
     tagline: "Unlocking potential, one community at a time.",
     icon: "sprout" as const,
-    summary: `An intended line for a community Education Centre — computer literacy, robotics and STEM, vocational training, and career expos. These are plans, not current programmes. We do not operate educator-screening products and have not applied for SETA or government funding.`,
+    summary: `An intended line of FLATELA (PTY) LTD for a community Education Centre — so digital skills, vocational paths, and career visibility can sit in one planned place. The Centre is not open. These are plans, not current programmes. We do not operate educator-screening products and have not applied for SETA or government funding.`,
     deepBullets: [
+      "Purpose: a planned community Education Centre, not a live school or campus",
+      "Intended for: learners and families in communities the holdco can actually reach",
+      "Intended later: school groups via Travel if both lines exist — no catchment or enrolment numbers",
       "Intended: computer literacy and community internet access",
       "Intended: robotics, coding, and STEM workshops",
       "Intended: vocational training",
-      "Intended: career expos with corporate partners",
+      "Intended: career expos with corporate partners — partners are a hope, not bookings",
+      "Limit: 75 Kanna Street is the company address, not an open campus",
     ],
   },
 ] as const;
 
 export type PillarIcon = (typeof PILLARS)[number]["icon"];
 export type Pillar = (typeof PILLARS)[number];
+
+export function pillarMoreHref(slug: Pillar["slug"]) {
+  return slug === "education" ? "/education" : `/#${slug}`;
+}
