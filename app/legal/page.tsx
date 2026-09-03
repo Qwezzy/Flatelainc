@@ -4,7 +4,7 @@ import LegalChrome from "@/components/layout/LegalChrome";
 export const metadata: Metadata = {
   title: "Legal",
   description:
-    "Legal notice for FLATELA (PTY) LTD t/a Flatela Inc, a South African holding company registered in 2026.",
+    "Legal notice for FLATELA (PTY) LTD, a South African holding company registered in 2026.",
 };
 
 export default function LegalPage() {
@@ -15,18 +15,17 @@ export default function LegalPage() {
         Legal notice
       </h1>
       <p className="font-sans text-body-sm text-ink-mute">
-        FLATELA (PTY) LTD t/a Flatela Inc · 2026/291183/07 · Last updated September 2026
+        FLATELA (PTY) LTD · 2026/291183/07 · Last updated September 2026
       </p>
 
       <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
         Company
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        The legal name of the company is FLATELA (PTY) LTD. It trades as Flatela
-        Inc. It is a private company registered in the Republic of South Africa
-        on 9 April 2026, enterprise number 2026/291183/07. Sole director: Khwezi
-        Flatela. The wordmark and this website use the trading name “Flatela
-        Inc”. They do not use “Flatela Inc (Pty) Ltd”.
+        The legal name of the company is FLATELA (PTY) LTD. It is a private
+        company registered in the Republic of South Africa on 9 April 2026,
+        enterprise number 2026/291183/07. Sole director: Khwezi Flatela. The
+        public wordmark on this site is Flatela.
       </p>
       <p className="font-sans text-body text-ink leading-[1.65]">
         Address: 75 Kanna Street, Northmead Ext 4, Benoni, 1501, Gauteng, South
@@ -45,8 +44,8 @@ export default function LegalPage() {
         What this site describes
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        Flatela Inc is a holding company registered in 2026 that will house
-        intended pillar projects: Property, Data &amp; Technology, Retail,
+        FLATELA (PTY) LTD is a holding company registered in 2026 that will
+        house intended pillar projects: Property, Data &amp; Technology, Retail,
         Travel, Energy, and Education. Those six names are intended lines of
         work, not live trading divisions. Nothing on this site is an offer of
         financial services, travel ticketing, energy installation, education

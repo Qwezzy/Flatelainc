@@ -28,14 +28,15 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Image
               src="/flatela_logo_dark.png"
-              alt="Flatela Inc"
+              alt="Flatela"
               width={160}
               height={80}
               className="mb-4 mix-blend-screen"
             />
             <p className="font-sans text-body-sm text-forest-pale leading-relaxed max-w-xs">
-              FLATELA (PTY) LTD t/a Flatela Inc is a holding company registered
-              in 2026. The six pillars are intended lines, not live divisions.
+              FLATELA (PTY) LTD is a holding company registered in 2026. It will
+              house intended pillar projects. The six names below are intended
+              lines, not live divisions.
             </p>
           </div>
 
@@ -97,7 +98,7 @@ export default function Footer() {
 
         <div className="pt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <p className="font-sans text-body-sm text-forest-pale">
-            © 2026 FLATELA (PTY) LTD t/a Flatela Inc · 2026/291183/07 · Gauteng, South Africa
+            © 2026 FLATELA (PTY) LTD · 2026/291183/07 · Gauteng, South Africa
           </p>
           <p className="font-serif italic text-body-sm text-forest-leaf">
             Building something that will outlast us.

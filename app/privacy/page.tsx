@@ -4,7 +4,7 @@ import LegalChrome from "@/components/layout/LegalChrome";
 export const metadata: Metadata = {
   title: "Privacy",
   description:
-    "How FLATELA (PTY) LTD t/a Flatela Inc handles personal information on this marketing site.",
+    "How FLATELA (PTY) LTD handles personal information on this marketing site.",
 };
 
 export default function PrivacyPage() {
@@ -15,23 +15,23 @@ export default function PrivacyPage() {
         Privacy notice
       </h1>
       <p className="font-sans text-body-sm text-ink-mute">
-        FLATELA (PTY) LTD t/a Flatela Inc · 2026/291183/07 · Last updated September 2026
+        FLATELA (PTY) LTD · 2026/291183/07 · Last updated September 2026
       </p>
 
       <p className="font-sans text-body text-ink leading-[1.65]">
         This is a static marketing website. It does not offer user accounts,
-        payments, or an online application form. We do not claim to be a
-        commercial data processor for third parties.
+        payments, or an online application form. We do not provide a commercial
+        data-processing service for third parties.
       </p>
 
       <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
         Who we are
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        FLATELA (PTY) LTD, trading as Flatela Inc, is a private company
-        registered in South Africa on 9 April 2026 (enterprise number
-        2026/291183/07). Sole director: Khwezi Flatela. Registered address: 75
-        Kanna Street, Northmead Ext 4, Benoni, 1501, Gauteng.
+        FLATELA (PTY) LTD is a private company registered in South Africa on 9
+        April 2026 (enterprise number 2026/291183/07). Sole director: Khwezi
+        Flatela. Registered address: 75 Kanna Street, Northmead Ext 4, Benoni,
+        1501, Gauteng.
       </p>
       <p className="font-sans text-body text-ink leading-[1.65]">
         Contact for this notice:{" "}
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
       </p>
 
       <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
-        Why we use it (POPIA)
+        Why we use it
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
         Under the Protection of Personal Information Act 4 of 2013 we process

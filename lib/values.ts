@@ -2,7 +2,7 @@ export const VALUES = [
   {
     number: "01",
     name: "Integrity",
-    body: "We describe the company as it is: FLATELA (PTY) LTD trading as Flatela Inc, a holding company registered in 2026. We do not overstate what is live.",
+    body: "We describe the company as it is: FLATELA (PTY) LTD, a holding company registered in 2026. We do not overstate what is live.",
   },
   {
     number: "02",
@@ -12,7 +12,7 @@ export const VALUES = [
   {
     number: "03",
     name: "Foundation",
-    body: "The registered holding company is the legal foundation. Flatela Inc is the trading name. Intended pillars sit on that base; they are not separate trading entities today.",
+    body: "The registered holding company is the legal foundation. Intended pillars sit on that base; they are not separate trading entities today.",
   },
   {
     number: "04",

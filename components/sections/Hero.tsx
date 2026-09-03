@@ -89,7 +89,7 @@ export default function Hero() {
           className="flex flex-col gap-6 max-w-3xl"
         >
           <motion.p variants={item} className="eyebrow text-ink-mute">
-            Flatela Inc &nbsp;·&nbsp; Registered 2026
+            Flatela (Pty) Ltd &nbsp;·&nbsp; Registered 2026
           </motion.p>
 
           <motion.h1
@@ -108,8 +108,8 @@ export default function Hero() {
             variants={item}
             className="font-sans text-body-lg text-ink-soft max-w-2xl"
           >
-            Flatela Inc is the trading name of FLATELA (PTY) LTD, a holding
-            company registered in South Africa in 2026. It will house intended
+            FLATELA (PTY) LTD is a holding company registered in South Africa
+            in 2026 (2026/291183/07). Public name Flatela. It will house intended
             pillar projects across Property, Data & Technology, Retail,
             Travel, Energy, and Education — planned lines, not live
             divisions.

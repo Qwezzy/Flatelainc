@@ -32,8 +32,8 @@ export default function Story() {
                 determination into something we could grow together — and pass on?
               </p>
               <p className="font-sans text-body text-ink leading-[1.65]">
-                The answer is Flatela Inc, the trading name of FLATELA (PTY) LTD —
-                a holding company registered on 9 April 2026 (2026/291183/07). It is
+                The answer is Flatela — public name of holding company FLATELA
+                (PTY) LTD, registered on 9 April 2026 (2026/291183/07). It is
                 structured around work we intend to grow: building homes, working
                 with data, sourcing goods, planning travel, generating cleaner
                 energy, and supporting communities through education.

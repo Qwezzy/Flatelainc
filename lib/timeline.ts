@@ -6,14 +6,14 @@ export const TIMELINE = [
     summary:
       "FLATELA (PTY) LTD is registered. Year 1 is about standing up the brand, opening conversations, and beginning the first intended lines — not claiming live divisions.",
     milestones: [
-      "FLATELA (PTY) LTD registered (9 April 2026) and trading as Flatela Inc",
+      "FLATELA (PTY) LTD registered (9 April 2026)",
       "Publish an accurate public site and legal pages",
       "Begin the first intended Energy and Property work if capacity allows",
       "Scope an Education Centre without treating it as open",
       "Scope Retail e-commerce without treating it as launched",
       "Scope Travel as an intended line — no IATA or host-agency claims",
       "Scope Data & Technology as an intended holdco line",
-      "Build the Flatela Inc brand with restraint",
+      "Build the Flatela brand with restraint",
     ],
   },
   {

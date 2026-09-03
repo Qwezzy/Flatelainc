@@ -65,11 +65,11 @@ export default function Navigation() {
           <a
             href="/"
             className="flex items-center focus-bronze rounded-md"
-            aria-label="Flatela Inc — return to top"
+            aria-label="Flatela — return to top"
           >
             <Image
               src="/flatela_logo_light.jpg"
-              alt="Flatela Inc"
+              alt="Flatela"
               width={120}
               height={40}
               className="h-10 w-auto object-contain mix-blend-multiply"
@@ -133,7 +133,7 @@ export default function Navigation() {
               <div className="flex items-center justify-between mb-12">
                 <Image
                   src="/flatela_logo_light.jpg"
-                  alt="Flatela Inc"
+                  alt="Flatela"
                   width={100}
                   height={36}
                   className="h-9 w-auto object-contain mix-blend-multiply"
