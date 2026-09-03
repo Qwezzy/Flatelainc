@@ -1,6 +1,6 @@
-# Flatela Inc. — Website
+# Flatela — Website
 
-Public marketing site for FLATELA (PTY) LTD trading as Flatela Inc — a South African holding company registered on 9 April 2026 (2026/291183/07). Wordmark and chrome use Flatela Inc. Footer and legal pages use the legal name first. The six pillars are intended lines, not live trading divisions.
+Public marketing site for FLATELA (PTY) LTD — a South African holding company registered on 9 April 2026 (2026/291183/07). Wordmark, nav, and logo alt use Flatela. Title and metadata use Flatela or FLATELA (PTY) LTD. Footer and legal pages use the legal name. The six pillars are intended lines, not live trading divisions.
 
 ## Design Philosophy
 
@@ -25,6 +25,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Logo files
 
 - `public/flatela_logo_light.jpg` — colour mark for light chrome (white is baked in; do not put on a dark footer)
+- Artwork may still show INC until the CDO replaces the files. Chrome copy does not.
 - `public/flatela_logo_dark.png` — reverse mark for dark backgrounds
 - `og-image.png` — Open Graph image (optional; 1200×630px)
 

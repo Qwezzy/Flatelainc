@@ -4,49 +4,48 @@ import LegalChrome from "@/components/layout/LegalChrome";
 export const metadata: Metadata = {
   title: "Legal",
   description:
-    "Legal notice for FLATELA (PTY) LTD t/a Flatela Inc, a South African holding company registered in 2026.",
+    "Legal notice for FLATELA (PTY) LTD, a South African holding company registered in 2026.",
 };
 
 export default function LegalPage() {
   return (
     <LegalChrome>
-      <p className="eyebrow text-bronze">Legal</p>
-      <h1 className="font-serif-display font-light text-display-lg text-forest-deep">
+      <p className="eyebrow text-moss">Legal</p>
+      <h1 className="font-serif-display font-light text-display-lg text-brown">
         Legal notice
       </h1>
       <p className="font-sans text-body-sm text-ink-mute">
-        FLATELA (PTY) LTD t/a Flatela Inc · 2026/291183/07 · Last updated September 2026
+        FLATELA (PTY) LTD · 2026/291183/07 · Last updated September 2026
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Company
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        The legal name of the company is FLATELA (PTY) LTD. It trades as Flatela
-        Inc. It is a private company registered in the Republic of South Africa
-        on 9 April 2026, enterprise number 2026/291183/07. Sole director: Khwezi
-        Flatela. The wordmark and this website use the trading name “Flatela
-        Inc”. They do not use “Flatela Inc (Pty) Ltd”.
+        The legal name of the company is FLATELA (PTY) LTD. It is a private
+        company registered in the Republic of South Africa on 9 April 2026,
+        enterprise number 2026/291183/07. Sole director: Khwezi Flatela. The
+        public wordmark on this site is Flatela.
       </p>
       <p className="font-sans text-body text-ink leading-[1.65]">
         Address: 75 Kanna Street, Northmead Ext 4, Benoni, 1501, Gauteng, South
         Africa. Website:{" "}
-        <a className="text-bronze underline" href="https://flatelainc.co.za">
+        <a className="text-moss underline" href="https://flatelainc.co.za">
           flatelainc.co.za
         </a>
         . Contact:{" "}
-        <a className="text-bronze underline" href="mailto:info@flatelainc.co.za">
+        <a className="text-moss underline" href="mailto:info@flatelainc.co.za">
           info@flatelainc.co.za
         </a>
         .
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         What this site describes
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        Flatela Inc is a holding company registered in 2026 that will house
-        intended pillar projects: Property, Data &amp; Technology, Retail,
+        FLATELA (PTY) LTD is a holding company registered in 2026 that will
+        house intended pillar projects: Property, Data &amp; Technology, Retail,
         Travel, Energy, and Education. Those six names are intended lines of
         work, not live trading divisions. Nothing on this site is an offer of
         financial services, travel ticketing, energy installation, education
@@ -54,7 +53,7 @@ export default function LegalPage() {
         engagement is agreed in writing.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         No extra claims
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -65,7 +64,7 @@ export default function LegalPage() {
         2026.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Liability and law
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">

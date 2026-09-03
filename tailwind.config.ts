@@ -11,11 +11,9 @@ const config: Config = {
       colors: {
         brown: { DEFAULT: "#533E2B" },
         green: { DEFAULT: "#657D4F" },
-        moss: { DEFAULT: "#857D4E", light: "#A39A68", dark: "#6B6440" },
+        moss: { DEFAULT: "#857D4E", light: "#A39A68", dark: "#6B6440", pale: "#B5B39A" },
         cream: { DEFAULT: "#F3F0E6", soft: "#E8E4D6", paper: "#F8F6EE" },
-        forest: { deep: "#533E2B", mid: "#657D4F", leaf: "#657D4F", pale: "#B5B39A" },
         earth: { deep: "#3A2B1E", trunk: "#533E2B", warm: "#6B5340" },
-        bronze: { DEFAULT: "#857D4E", light: "#A39A68", dark: "#6B6440" },
         ink: { DEFAULT: "#2A2218", soft: "#533E2B", mute: "#7A7268" },
         rule: "#D9D3C4",
       },

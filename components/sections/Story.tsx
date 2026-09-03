@@ -12,7 +12,7 @@ export default function Story() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
           <div className="hidden lg:flex lg:col-span-5 justify-center items-start pt-4">
             <span
-              className="font-serif font-light text-[200px] leading-none text-forest-pale select-none pointer-events-none"
+              className="font-serif font-light text-[200px] leading-none text-moss-pale select-none pointer-events-none"
               aria-hidden="true"
             >
               01
@@ -32,8 +32,8 @@ export default function Story() {
                 determination into something we could grow together — and pass on?
               </p>
               <p className="font-sans text-body text-ink leading-[1.65]">
-                The answer is Flatela Inc, the trading name of FLATELA (PTY) LTD —
-                a holding company registered on 9 April 2026 (2026/291183/07). It is
+                The answer is Flatela — public name of holding company FLATELA
+                (PTY) LTD, registered on 9 April 2026 (2026/291183/07). It is
                 structured around work we intend to grow: building homes, working
                 with data, sourcing goods, planning travel, generating cleaner
                 energy, and supporting communities through education.
@@ -47,8 +47,8 @@ export default function Story() {
             </Reveal>
 
             <Reveal delay={0.2}>
-              <blockquote className="border-l-2 border-bronze pl-6 py-1">
-                <p className="font-serif font-light italic text-display-md text-forest-deep leading-[1.2]">
+              <blockquote className="border-l-2 border-moss pl-6 py-1">
+                <p className="font-serif font-light italic text-display-md text-brown leading-[1.2]">
                   &ldquo;Together, the Flatela family can build something that endures
                   across generations.&rdquo;
                 </p>

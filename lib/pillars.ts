@@ -33,7 +33,7 @@ export const PILLARS = [
     name: "Retail",
     tagline: "Bringing considered goods into South African homes.",
     icon: "package" as const,
-    summary: `An intended line for direct importation of fashion goods and furniture, sold through e-commerce and wholesale channels. Furniture supply could later support Property renovations. Retail is not trading as a division today.`,
+    summary: `An intended line for direct importation of fashion goods and furniture, sold through e-commerce and wholesale channels. Furniture supply could later support Property renovations. Retail is not a live division today.`,
     deepBullets: [
       "Intended: fashion apparel, footwear, and accessories",
       "Intended: furniture and homeware from selected markets",

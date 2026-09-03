@@ -64,12 +64,12 @@ export default function Navigation() {
         <div className="max-w-6xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16 lg:h-20">
           <a
             href="/"
-            className="flex items-center focus-bronze rounded-md"
-            aria-label="Flatela Inc — return to top"
+            className="flex items-center focus-moss rounded-md"
+            aria-label="Flatela — return to top"
           >
             <Image
               src="/flatela_logo_light.jpg"
-              alt="Flatela Inc"
+              alt="Flatela"
               width={120}
               height={40}
               className="h-10 w-auto object-contain mix-blend-multiply"
@@ -83,7 +83,7 @@ export default function Navigation() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="font-sans text-body-sm text-forest-deep hover:text-bronze transition-colors duration-200 focus-bronze rounded"
+                  className="font-sans text-body-sm text-brown hover:text-moss transition-colors duration-200 focus-moss rounded"
                 >
                   {link.label}
                 </a>
@@ -94,7 +94,7 @@ export default function Navigation() {
           {/* Mobile hamburger */}
           <button
             onClick={() => setDrawerOpen(true)}
-            className="lg:hidden flex flex-col gap-1.5 p-2 text-forest-deep focus-bronze rounded"
+            className="lg:hidden flex flex-col gap-1.5 p-2 text-brown focus-moss rounded"
             aria-label="Open navigation menu"
             aria-expanded={drawerOpen}
           >
@@ -115,7 +115,7 @@ export default function Navigation() {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 z-50 bg-forest-deep/30 backdrop-blur-sm lg:hidden"
+              className="fixed inset-0 z-50 bg-brown/30 backdrop-blur-sm lg:hidden"
               onClick={closeDrawer}
               aria-hidden="true"
             />
@@ -133,14 +133,14 @@ export default function Navigation() {
               <div className="flex items-center justify-between mb-12">
                 <Image
                   src="/flatela_logo_light.jpg"
-                  alt="Flatela Inc"
+                  alt="Flatela"
                   width={100}
                   height={36}
                   className="h-9 w-auto object-contain mix-blend-multiply"
                 />
                 <button
                   onClick={closeDrawer}
-                  className="p-2 text-forest-deep focus-bronze rounded"
+                  className="p-2 text-brown focus-moss rounded"
                   aria-label="Close navigation menu"
                 >
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
@@ -155,9 +155,9 @@ export default function Navigation() {
                     <a
                       href={link.href}
                       onClick={closeDrawer}
-                      className="flex items-center gap-3 font-serif font-light text-[32px] leading-none text-forest-deep hover:text-bronze transition-colors duration-200 focus-bronze rounded"
+                      className="flex items-center gap-3 font-serif font-light text-[32px] leading-none text-brown hover:text-moss transition-colors duration-200 focus-moss rounded"
                     >
-                      <span className="text-forest-leaf mt-1">
+                      <span className="text-green mt-1">
                         <LeafMark />
                       </span>
                       {link.label}

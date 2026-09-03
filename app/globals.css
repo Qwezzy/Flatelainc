@@ -12,18 +12,14 @@
   --bg-cream-soft:   #E8E4D6;
   --bg-paper:        #F8F6EE;
 
-  --forest-deep:     #533E2B;
-  --forest-mid:      #657D4F;
-  --forest-leaf:     #657D4F;
-  --forest-pale:     #B5B39A;
+  --moss-pale:     #B5B39A;
 
   --earth-deep:      #3A2B1E;
   --earth-trunk:     #533E2B;
   --earth-warm:      #6B5340;
 
-  --bronze:          #857D4E;
-  --bronze-light:    #A39A68;
-  --bronze-dark:     #6B6440;
+  --moss-light:    #A39A68;
+  --moss-dark:     #6B6440;
 
   --ink:             #2A2218;
   --ink-soft:        #533E2B;
@@ -73,7 +69,7 @@ body {
     color: var(--ink-mute);
   }
 
-  .focus-bronze:focus-visible {
+  .focus-moss:focus-visible {
     outline: 2px solid var(--moss);
     outline-offset: 3px;
   }

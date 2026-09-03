@@ -42,7 +42,7 @@ export default function Timeline() {
         <div className="flex flex-col gap-0 relative lg:hidden">
           <div className="absolute left-4 top-4 bottom-4 w-px">
             <motion.div
-              className="h-full bg-bronze origin-top"
+              className="h-full bg-moss origin-top"
               initial={{ scaleY: 0 }}
               whileInView={{ scaleY: 1 }}
               viewport={{ once: true, amount: 0.1 }}
@@ -55,10 +55,10 @@ export default function Timeline() {
 
           {TIMELINE.map((phase, i) => (
             <Reveal key={phase.phase} delay={i * 0.12} className="pl-12 pb-10 relative">
-              <div className="absolute left-[10px] top-1 w-3 h-3 rounded-full bg-bronze border-2 border-cream-soft" />
+              <div className="absolute left-[10px] top-1 w-3 h-3 rounded-full bg-moss border-2 border-cream-soft" />
               <article aria-labelledby={`phase-${i}-title`}>
-                <p className="eyebrow text-bronze mb-2">{phase.phase} · {phase.months}</p>
-                <h3 id={`phase-${i}-title`} className="font-serif font-semibold text-display-md text-forest-deep mb-2">
+                <p className="eyebrow text-moss mb-2">{phase.phase} · {phase.months}</p>
+                <h3 id={`phase-${i}-title`} className="font-serif font-semibold text-display-md text-brown mb-2">
                   {phase.title}
                 </h3>
                 <p className="font-sans text-body text-ink-soft leading-[1.6] mb-4">
@@ -66,7 +66,7 @@ export default function Timeline() {
                 </p>
                 <ul className="flex flex-col gap-2" role="list">
                   {phase.milestones.map((m) => (
-                    <li key={m} className="flex items-start gap-2 text-forest-leaf">
+                    <li key={m} className="flex items-start gap-2 text-green">
                       <LeafCheck />
                       <span className="font-sans text-body-sm text-ink leading-[1.55]">{m}</span>
                     </li>
@@ -86,9 +86,9 @@ export default function Timeline() {
                 aria-labelledby={`phase-desk-${i}-title`}
               >
                 <div className="flex items-center gap-3">
-                  <div className="w-3 h-3 rounded-full bg-bronze shrink-0" aria-hidden="true" />
+                  <div className="w-3 h-3 rounded-full bg-moss shrink-0" aria-hidden="true" />
                   <div>
-                    <p className="eyebrow text-bronze">{phase.phase}</p>
+                    <p className="eyebrow text-moss">{phase.phase}</p>
                     <p className="font-sans text-body-sm text-ink-mute">{phase.months}</p>
                   </div>
                 </div>
@@ -96,7 +96,7 @@ export default function Timeline() {
                 <div>
                   <h3
                     id={`phase-desk-${i}-title`}
-                    className="font-serif font-semibold text-[32px] leading-tight text-forest-deep"
+                    className="font-serif font-semibold text-[32px] leading-tight text-brown"
                   >
                     {phase.title}
                   </h3>
@@ -107,7 +107,7 @@ export default function Timeline() {
 
                 <ul className="flex flex-col gap-2.5 flex-1" role="list">
                   {phase.milestones.map((m) => (
-                    <li key={m} className="flex items-start gap-2.5 text-forest-leaf">
+                    <li key={m} className="flex items-start gap-2.5 text-green">
                       <LeafCheck />
                       <span className="font-sans text-body-sm text-ink leading-[1.55]">{m}</span>
                     </li>
