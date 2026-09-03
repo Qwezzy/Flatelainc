@@ -25,14 +25,14 @@ function SynergyCallout({ slug }: { slug: string }) {
   if (!connected.length) return null;
 
   return (
-    <div className="bg-bronze/10 border border-bronze/20 rounded-lg p-5 flex flex-col gap-3">
-      <p className="eyebrow text-bronze">Intended connections</p>
+    <div className="bg-moss/10 border border-moss/20 rounded-lg p-5 flex flex-col gap-3">
+      <p className="eyebrow text-moss">Intended connections</p>
       <ul className="flex flex-col gap-2">
         {connected.map((s) => {
           const other = s.a === slug ? s.b : s.a;
           return (
             <li key={`${s.a}-${s.b}`} className="flex flex-col">
-              <span className="font-serif italic text-forest-deep text-[15px]">
+              <span className="font-serif italic text-brown text-[15px]">
                 {s.title}
               </span>
               <span className="font-sans text-body-sm text-ink-soft capitalize">
@@ -65,17 +65,17 @@ export default function PillarDeep() {
                 {/* Left */}
                 <div className="lg:col-span-4 flex flex-col gap-4">
                   <Reveal>
-                    <p className="eyebrow text-bronze">Pillar {pillar.number}</p>
+                    <p className="eyebrow text-moss">Pillar {pillar.number}</p>
                   </Reveal>
                   <Reveal delay={0.05}>
                     <span
-                      className="font-serif font-light text-[120px] leading-none text-forest-pale select-none pointer-events-none block"
+                      className="font-serif font-light text-[120px] leading-none text-moss-pale select-none pointer-events-none block"
                       aria-hidden="true"
                     >
                       {pillar.number}
                     </span>
                   </Reveal>
-                  <Reveal delay={0.1} className="text-forest-leaf mt-2">
+                  <Reveal delay={0.1} className="text-green mt-2">
                     <PillarIcon icon={pillar.icon} />
                   </Reveal>
                 </div>
@@ -85,7 +85,7 @@ export default function PillarDeep() {
                   <Reveal>
                     <h2
                       id={`deep-${pillar.slug}-heading`}
-                      className="font-serif-display font-semibold text-display-lg lg:text-[48px] lg:leading-[1.08] text-forest-deep"
+                      className="font-serif-display font-semibold text-display-lg lg:text-[48px] lg:leading-[1.08] text-brown"
                     >
                       {pillar.name}
                     </h2>
@@ -106,7 +106,7 @@ export default function PillarDeep() {
                   <Reveal delay={0.15}>
                     <ul className="flex flex-col gap-3" role="list">
                       {pillar.deepBullets.map((bullet) => (
-                        <li key={bullet} className="flex items-start gap-3 text-bronze">
+                        <li key={bullet} className="flex items-start gap-3 text-moss">
                           <LeafBullet />
                           <span className="font-sans text-body text-ink leading-[1.6]">
                             {bullet}

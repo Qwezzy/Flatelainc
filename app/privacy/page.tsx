@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 export default function PrivacyPage() {
   return (
     <LegalChrome>
-      <p className="eyebrow text-bronze">Privacy</p>
-      <h1 className="font-serif-display font-light text-display-lg text-forest-deep">
+      <p className="eyebrow text-moss">Privacy</p>
+      <h1 className="font-serif-display font-light text-display-lg text-brown">
         Privacy notice
       </h1>
       <p className="font-sans text-body-sm text-ink-mute">
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
         data-processing service for third parties.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Who we are
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -35,13 +35,13 @@ export default function PrivacyPage() {
       </p>
       <p className="font-sans text-body text-ink leading-[1.65]">
         Contact for this notice:{" "}
-        <a className="text-bronze underline" href="mailto:info@flatelainc.co.za">
+        <a className="text-moss underline" href="mailto:info@flatelainc.co.za">
           info@flatelainc.co.za
         </a>
         .
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         What we collect
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
         of the site, and we do not invent additional processors.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Why we use it
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -62,7 +62,7 @@ export default function PrivacyPage() {
         information. We do not use it for automated decision-making.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Sharing and retention
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -72,13 +72,13 @@ export default function PrivacyPage() {
         business records.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Your rights
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
         You may ask us what personal information we hold about you, request
         correction, or object to processing, by writing to{" "}
-        <a className="text-bronze underline" href="mailto:info@flatelainc.co.za">
+        <a className="text-moss underline" href="mailto:info@flatelainc.co.za">
           info@flatelainc.co.za
         </a>
         . You may also lodge a complaint with the Information Regulator

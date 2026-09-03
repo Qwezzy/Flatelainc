@@ -15,11 +15,11 @@ function SynergyCard({ synergy, index }: { synergy: typeof SYNERGIES[number]; in
     <Reveal delay={index * 0.07}>
       <article className="bg-cream-paper border border-rule rounded-lg p-6 flex flex-col gap-3 shadow-card">
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="font-serif font-semibold text-forest-deep text-[16px]">
+          <span className="font-serif font-semibold text-brown text-[16px]">
             {pillarA.name}
           </span>
-          <span className="text-bronze font-light">—</span>
-          <span className="font-serif font-semibold text-forest-deep text-[16px]">
+          <span className="text-moss font-light">—</span>
+          <span className="font-serif font-semibold text-brown text-[16px]">
             {pillarB.name}
           </span>
         </div>
@@ -74,7 +74,7 @@ function HexSynergies() {
             <motion.path
               key={`${s.a}-${s.b}`}
               d={`M${posA.x} ${posA.y} Q${cpX} ${cpY} ${posB.x} ${posB.y}`}
-              stroke={active ? "var(--bronze)" : "var(--rule)"}
+              stroke={active ? "var(--moss)" : "var(--rule)"}
               strokeWidth={active ? 1.5 : 1}
               initial={{ pathLength: 0, opacity: 0 }}
               whileInView={{ pathLength: 1, opacity: 1 }}
@@ -99,8 +99,8 @@ function HexSynergies() {
                 cx={pos.x}
                 cy={pos.y}
                 r={active ? 38 : 34}
-                fill={active ? "var(--bronze)" : "var(--bg-paper)"}
-                stroke={active ? "var(--bronze)" : "var(--rule)"}
+                fill={active ? "var(--moss)" : "var(--bg-paper)"}
+                stroke={active ? "var(--moss)" : "var(--rule)"}
                 strokeWidth="1.5"
                 style={{ transition: "all 0.25s ease" }}
               />
@@ -108,7 +108,7 @@ function HexSynergies() {
                 x={pos.x}
                 y={pos.y - 6}
                 textAnchor="middle"
-                fill={active ? "var(--bg-cream)" : "var(--forest-deep)"}
+                fill={active ? "var(--bg-cream)" : "var(--brown)"}
                 fontFamily="var(--font-sans)"
                 fontSize="10"
                 fontWeight="600"

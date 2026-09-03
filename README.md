@@ -25,6 +25,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ## Logo files
 
 - `public/flatela_logo_light.jpg` — colour mark for light chrome (white is baked in; do not put on a dark footer)
+- Artwork may still show INC until the CDO replaces the files. Chrome copy does not.
 - `public/flatela_logo_dark.png` — reverse mark for dark backgrounds
 - `og-image.png` — Open Graph image (optional; 1200×630px)
 

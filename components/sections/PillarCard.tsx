@@ -25,10 +25,10 @@ export default function PillarCard({ pillar, index }: PillarCardProps) {
       aria-labelledby={`pillar-${pillar.slug}-name`}
     >
       <div>
-        <p className="eyebrow text-bronze mb-3">
+        <p className="eyebrow text-moss mb-3">
           {pillar.number} · {pillar.name.toUpperCase()}
         </p>
-        <div className="text-forest-leaf group-hover:text-bronze transition-colors duration-300">
+        <div className="text-green group-hover:text-moss transition-colors duration-300">
           <PillarIcon icon={pillar.icon} />
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function PillarCard({ pillar, index }: PillarCardProps) {
       <div>
         <h3
           id={`pillar-${pillar.slug}-name`}
-          className="font-serif font-semibold text-[28px] leading-tight text-forest-deep"
+          className="font-serif font-semibold text-[28px] leading-tight text-brown"
         >
           {pillar.name}
         </h3>
@@ -51,7 +51,7 @@ export default function PillarCard({ pillar, index }: PillarCardProps) {
 
       <a
         href={`/#${pillar.slug}`}
-        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-bronze hover:text-bronze-light transition-colors duration-200 mt-auto focus-bronze rounded group/link"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 mt-auto focus-moss rounded group/link"
       >
         Read more
         <span className="transition-transform duration-200 group-hover/link:translate-x-1">→</span>

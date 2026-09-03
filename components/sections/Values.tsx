@@ -21,14 +21,14 @@ export default function Values() {
             <Reveal key={value.name} delay={(i % 3) * 0.08}>
               <article aria-labelledby={`value-${i}-name`} className="flex flex-col gap-3">
                 <span
-                  className="font-serif font-light text-[64px] leading-none text-bronze select-none"
+                  className="font-serif font-light text-[64px] leading-none text-moss select-none"
                   aria-hidden="true"
                 >
                   {value.number}
                 </span>
                 <h3
                   id={`value-${i}-name`}
-                  className="font-serif font-semibold text-[24px] leading-tight text-forest-deep"
+                  className="font-serif font-semibold text-[24px] leading-tight text-brown"
                 >
                   {value.name}
                 </h3>

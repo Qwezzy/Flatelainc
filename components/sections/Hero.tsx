@@ -73,7 +73,7 @@ export default function Hero() {
       <div className="grain-overlay" aria-hidden="true" />
 
       <motion.div
-        className="text-forest-pale opacity-[0.08]"
+        className="text-moss-pale opacity-[0.08]"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.08 }}
         transition={{ duration: 1.5, ease: "easeOut" }}
@@ -94,7 +94,7 @@ export default function Hero() {
 
           <motion.h1
             variants={item}
-            className="font-serif-display font-light text-display-xl lg:text-[96px] lg:leading-[1.0] text-forest-deep text-balance"
+            className="font-serif-display font-light text-display-xl lg:text-[96px] lg:leading-[1.0] text-brown text-balance"
           >
             Together, we are{" "}
             <em className="not-italic italic font-light">building</em>
@@ -118,7 +118,7 @@ export default function Hero() {
           <motion.div variants={item} className="flex flex-col gap-3 pt-2">
             <a
               href="#pillars"
-              className="inline-flex items-center gap-2 font-sans font-medium text-body text-bronze hover:text-bronze-light transition-colors duration-200 focus-bronze rounded group"
+              className="inline-flex items-center gap-2 font-sans font-medium text-body text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded group"
             >
               Explore the six intended pillars
               <span className="transition-transform duration-200 group-hover:translate-x-1">

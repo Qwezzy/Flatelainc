@@ -10,15 +10,15 @@ export const metadata: Metadata = {
 export default function LegalPage() {
   return (
     <LegalChrome>
-      <p className="eyebrow text-bronze">Legal</p>
-      <h1 className="font-serif-display font-light text-display-lg text-forest-deep">
+      <p className="eyebrow text-moss">Legal</p>
+      <h1 className="font-serif-display font-light text-display-lg text-brown">
         Legal notice
       </h1>
       <p className="font-sans text-body-sm text-ink-mute">
         FLATELA (PTY) LTD · 2026/291183/07 · Last updated September 2026
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Company
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -30,17 +30,17 @@ export default function LegalPage() {
       <p className="font-sans text-body text-ink leading-[1.65]">
         Address: 75 Kanna Street, Northmead Ext 4, Benoni, 1501, Gauteng, South
         Africa. Website:{" "}
-        <a className="text-bronze underline" href="https://flatelainc.co.za">
+        <a className="text-moss underline" href="https://flatelainc.co.za">
           flatelainc.co.za
         </a>
         . Contact:{" "}
-        <a className="text-bronze underline" href="mailto:info@flatelainc.co.za">
+        <a className="text-moss underline" href="mailto:info@flatelainc.co.za">
           info@flatelainc.co.za
         </a>
         .
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         What this site describes
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -53,7 +53,7 @@ export default function LegalPage() {
         engagement is agreed in writing.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         No extra claims
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
@@ -64,7 +64,7 @@ export default function LegalPage() {
         2026.
       </p>
 
-      <h2 className="font-serif-display font-semibold text-display-md text-forest-deep pt-4">
+      <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">
         Liability and law
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">

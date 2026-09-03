@@ -2,7 +2,7 @@ import Reveal from "@/components/ui/Reveal";
 
 function LeafMark() {
   return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true" className="shrink-0 mt-0.5 text-bronze">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true" className="shrink-0 mt-0.5 text-moss">
       <path
         d="M7 12V5M7 8C7 8 4 8 2 5.5C4 2.5 6.5 2.5 7 5M7 7C7 7 10 6.5 12 4C10 1 7.5 2 7 5"
         stroke="currentColor"
@@ -26,12 +26,12 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-forest-deep py-20 lg:py-32 px-6 lg:px-12"
+      className="bg-brown py-20 lg:py-32 px-6 lg:px-12"
       aria-labelledby="contact-heading"
     >
       <div className="max-w-4xl mx-auto flex flex-col gap-10">
         <Reveal>
-          <p className="eyebrow text-bronze">06  ·  Connect With Us</p>
+          <p className="eyebrow text-moss">06  ·  Connect With Us</p>
         </Reveal>
 
         <Reveal delay={0.1}>
@@ -65,7 +65,7 @@ export default function Contact() {
                   </span>
                   <a
                     href={c.href}
-                    className="font-sans text-body text-cream hover:text-bronze-light transition-colors duration-200 focus-bronze rounded"
+                    className="font-sans text-body text-cream hover:text-moss-light transition-colors duration-200 focus-moss rounded"
                   >
                     {c.value}
                   </a>
