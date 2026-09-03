@@ -15,18 +15,18 @@ function SynergyCard({ synergy, index }: { synergy: typeof SYNERGIES[number]; in
     <Reveal delay={index * 0.07}>
       <article className="bg-cream-paper border border-rule rounded-lg p-6 flex flex-col gap-3 shadow-card">
         <div className="flex items-center gap-2 flex-wrap">
-          <span className="font-fraunces font-semibold text-forest-deep text-[16px]">
+          <span className="font-serif font-semibold text-forest-deep text-[16px]">
             {pillarA.name}
           </span>
           <span className="text-bronze font-light">—</span>
-          <span className="font-fraunces font-semibold text-forest-deep text-[16px]">
+          <span className="font-serif font-semibold text-forest-deep text-[16px]">
             {pillarB.name}
           </span>
         </div>
-        <p className="font-fraunces italic text-[17px] text-ink-soft leading-snug">
+        <p className="font-serif italic text-[17px] text-ink-soft leading-snug">
           {synergy.title}
         </p>
-        <p className="font-manrope text-body-sm text-ink leading-[1.6]">
+        <p className="font-sans text-body-sm text-ink leading-[1.6]">
           {synergy.body}
         </p>
       </article>
@@ -109,7 +109,7 @@ function HexSynergies() {
                 y={pos.y - 6}
                 textAnchor="middle"
                 fill={active ? "var(--bg-cream)" : "var(--forest-deep)"}
-                fontFamily="var(--font-manrope)"
+                fontFamily="var(--font-sans)"
                 fontSize="10"
                 fontWeight="600"
                 letterSpacing="1"
@@ -122,7 +122,7 @@ function HexSynergies() {
                 y={pos.y + 8}
                 textAnchor="middle"
                 fill={active ? "var(--bg-cream)" : "var(--ink-mute)"}
-                fontFamily="var(--font-manrope)"
+                fontFamily="var(--font-sans)"
                 fontSize="9"
                 style={{ transition: "fill 0.25s ease" }}
               >
@@ -147,7 +147,7 @@ export default function Synergies() {
         <SectionHeader
           eyebrow="03  ·  How The Pillars Connect"
           headline="Stronger together than apart."
-          subhead="The real power of Flatela is in how the divisions feed one another. Each connection is a real, executed synergy — not a marketing line."
+          subhead="If the intended pillars are built, the power of the holdco is how they could feed one another. These are planned connections — not executed divisions."
           ornament="03"
         />
 

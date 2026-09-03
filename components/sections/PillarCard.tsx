@@ -36,22 +36,22 @@ export default function PillarCard({ pillar, index }: PillarCardProps) {
       <div>
         <h3
           id={`pillar-${pillar.slug}-name`}
-          className="font-fraunces font-semibold text-[28px] leading-tight text-forest-deep"
+          className="font-serif font-semibold text-[28px] leading-tight text-forest-deep"
         >
           {pillar.name}
         </h3>
-        <p className="font-fraunces italic text-[18px] text-ink-soft mt-1">
+        <p className="font-serif italic text-[18px] text-ink-soft mt-1">
           {pillar.tagline}
         </p>
       </div>
 
-      <p className="font-manrope text-body text-ink leading-[1.65] flex-1">
+      <p className="font-sans text-body text-ink leading-[1.65] flex-1">
         {pillar.summary}
       </p>
 
       <a
-        href={`#${pillar.slug}`}
-        className="inline-flex items-center gap-1.5 font-manrope text-body-sm text-bronze hover:text-bronze-light transition-colors duration-200 mt-auto focus-bronze rounded group/link"
+        href={`/#${pillar.slug}`}
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-bronze hover:text-bronze-light transition-colors duration-200 mt-auto focus-bronze rounded group/link"
       >
         Read more
         <span className="transition-transform duration-200 group-hover/link:translate-x-1">→</span>

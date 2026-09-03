@@ -1,17 +1,17 @@
 # Flatela Inc. — Website
 
-The public-facing marketing website for Flatela Inc., a South African family-owned holding company operating across six divisions: Property, Data & Technology, Retail, Travel, Energy, and Education.
+Public marketing site for FLATELA (PTY) LTD trading as Flatela Inc — a South African holding company registered on 9 April 2026 (2026/291183/07). Wordmark and chrome use Flatela Inc. Footer and legal pages use the legal name first. The six pillars are intended lines, not live trading divisions.
 
 ## Design Philosophy
 
-The aesthetic is **Heritage Editorial** — the weight of a refined African family publication, not a SaaS product. The palette is derived directly from the tree-of-life logo (earthy creams, deep forest greens, warm bronze). Typography is Fraunces (display) + Manrope (body). Every animation is restrained, slow-eased, and scroll-triggered.
+The aesthetic is **Heritage Editorial** — the weight of a refined African family publication, not a SaaS product. The palette is brown #533E2B, green #657D4F, moss #857D4E, and cream #F3F0E6. Typography uses interim webfonts: Source Serif 4 (optical-size display for H1-H2; regular optical size for smaller serif) and Source Sans 3 (body) via next/font/google. Every animation is restrained, slow-eased, and scroll-triggered.
 
 ## Tech Stack
 
 - **Framework:** Next.js 14 (App Router, TypeScript)
 - **Styling:** Tailwind CSS v3 with custom design tokens
 - **Animation:** Framer Motion (scroll-triggered reveals, staggered entrance)
-- **Fonts:** Fraunces + Manrope via `next/font/google`
+- **Fonts:** Source Serif 4 + Source Sans 3 via `next/font/google` (interim webfonts)
 
 ## Getting Started
 
@@ -22,15 +22,11 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Logo Files
+## Logo files
 
-Place the following files in `/public/` before deploying:
-
-- `flatela_logo.jpg` — Dark bronze on white (for light backgrounds, including the nav)
-- `flatela_logo.png` — Olive on black (for dark backgrounds, including the footer)
-- `og-image.png` — Open Graph image (1200×630px)
-
-SVG placeholder logos are currently in place. Replace with the actual brand files.
+- `public/flatela_logo_light.jpg` — colour mark for light chrome (white is baked in; do not put on a dark footer)
+- `public/flatela_logo_dark.png` — reverse mark for dark backgrounds
+- `og-image.png` — Open Graph image (optional; 1200×630px)
 
 ## Deployment
 
@@ -68,7 +64,7 @@ components/
     PillarDeep.tsx  Six deep-dive sections (alternating tone)
     Synergies.tsx   Connection cards + desktop hex diagram
     Timeline.tsx    Three-phase roadmap (mobile vertical / desktop columns)
-    Values.tsx      Six core values grid
+    Values.tsx      Four values grid
     Contact.tsx     Dark contact section
   ui/
     SectionHeader.tsx  Eyebrow + headline + subhead pattern
@@ -79,11 +75,10 @@ lib/
   pillars.ts        Pillar data (single source of truth)
   synergies.ts      Synergy connection data
   timeline.ts       Three-phase roadmap data
-  values.ts         Six core values
+  values.ts         Integrity, Growth, Foundation, Sustainability
 
-public/
-  flatela_logo_dark.svg   Placeholder logo (olive on dark)
-  flatela_logo_light.svg  Placeholder logo (bronze on cream)
+app/privacy/page.tsx and app/legal/page.tsx
+public/flatela_logo_dark.png and public/flatela_logo_light.jpg
 ```
 
 ## Quality Checklist

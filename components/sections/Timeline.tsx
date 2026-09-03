@@ -34,7 +34,7 @@ export default function Timeline() {
         <SectionHeader
           eyebrow="04  ·  The Roadmap"
           headline="Building deliberately, in phases."
-          subhead="Three years of focused execution. Each phase compounds on the last."
+          subhead="A three-year intention. Each phase only compounds if the work before it is real."
           ornament="04"
         />
 
@@ -58,17 +58,17 @@ export default function Timeline() {
               <div className="absolute left-[10px] top-1 w-3 h-3 rounded-full bg-bronze border-2 border-cream-soft" />
               <article aria-labelledby={`phase-${i}-title`}>
                 <p className="eyebrow text-bronze mb-2">{phase.phase} · {phase.months}</p>
-                <h3 id={`phase-${i}-title`} className="font-fraunces font-semibold text-display-md text-forest-deep mb-2">
+                <h3 id={`phase-${i}-title`} className="font-serif font-semibold text-display-md text-forest-deep mb-2">
                   {phase.title}
                 </h3>
-                <p className="font-manrope text-body text-ink-soft leading-[1.6] mb-4">
+                <p className="font-sans text-body text-ink-soft leading-[1.6] mb-4">
                   {phase.summary}
                 </p>
                 <ul className="flex flex-col gap-2" role="list">
                   {phase.milestones.map((m) => (
                     <li key={m} className="flex items-start gap-2 text-forest-leaf">
                       <LeafCheck />
-                      <span className="font-manrope text-body-sm text-ink leading-[1.55]">{m}</span>
+                      <span className="font-sans text-body-sm text-ink leading-[1.55]">{m}</span>
                     </li>
                   ))}
                 </ul>
@@ -89,18 +89,18 @@ export default function Timeline() {
                   <div className="w-3 h-3 rounded-full bg-bronze shrink-0" aria-hidden="true" />
                   <div>
                     <p className="eyebrow text-bronze">{phase.phase}</p>
-                    <p className="font-manrope text-body-sm text-ink-mute">{phase.months}</p>
+                    <p className="font-sans text-body-sm text-ink-mute">{phase.months}</p>
                   </div>
                 </div>
 
                 <div>
                   <h3
                     id={`phase-desk-${i}-title`}
-                    className="font-fraunces font-semibold text-[32px] leading-tight text-forest-deep"
+                    className="font-serif font-semibold text-[32px] leading-tight text-forest-deep"
                   >
                     {phase.title}
                   </h3>
-                  <p className="font-manrope text-body text-ink-soft mt-2 leading-[1.6]">
+                  <p className="font-sans text-body text-ink-soft mt-2 leading-[1.6]">
                     {phase.summary}
                   </p>
                 </div>
@@ -109,7 +109,7 @@ export default function Timeline() {
                   {phase.milestones.map((m) => (
                     <li key={m} className="flex items-start gap-2.5 text-forest-leaf">
                       <LeafCheck />
-                      <span className="font-manrope text-body-sm text-ink leading-[1.55]">{m}</span>
+                      <span className="font-sans text-body-sm text-ink leading-[1.55]">{m}</span>
                     </li>
                   ))}
                 </ul>

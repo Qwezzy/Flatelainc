@@ -89,12 +89,12 @@ export default function Hero() {
           className="flex flex-col gap-6 max-w-3xl"
         >
           <motion.p variants={item} className="eyebrow text-ink-mute">
-            A South African Family Enterprise &nbsp;·&nbsp; Est. 2024
+            Flatela Inc &nbsp;·&nbsp; Registered 2026
           </motion.p>
 
           <motion.h1
             variants={item}
-            className="font-fraunces font-light text-display-xl lg:text-[96px] lg:leading-[1.0] text-forest-deep text-balance"
+            className="font-serif-display font-light text-display-xl lg:text-[96px] lg:leading-[1.0] text-forest-deep text-balance"
           >
             Together, we are{" "}
             <em className="not-italic italic font-light">building</em>
@@ -106,25 +106,26 @@ export default function Hero() {
 
           <motion.p
             variants={item}
-            className="font-manrope text-body-lg text-ink-soft max-w-2xl"
+            className="font-sans text-body-lg text-ink-soft max-w-2xl"
           >
-            Flatela Inc. is a multi-generational family enterprise rooted in
-            South Africa, built across six pillars — Property, Data, Retail,
-            Travel, Energy, and Education. One family. Six divisions. A shared
-            commitment to enduring impact.
+            Flatela Inc is the trading name of FLATELA (PTY) LTD, a holding
+            company registered in South Africa in 2026. It will house intended
+            pillar projects across Property, Data & Technology, Retail,
+            Travel, Energy, and Education — planned lines, not live
+            divisions.
           </motion.p>
 
           <motion.div variants={item} className="flex flex-col gap-3 pt-2">
             <a
               href="#pillars"
-              className="inline-flex items-center gap-2 font-manrope font-medium text-body text-bronze hover:text-bronze-light transition-colors duration-200 focus-bronze rounded group"
+              className="inline-flex items-center gap-2 font-sans font-medium text-body text-bronze hover:text-bronze-light transition-colors duration-200 focus-bronze rounded group"
             >
-              Explore the six pillars
+              Explore the six intended pillars
               <span className="transition-transform duration-200 group-hover:translate-x-1">
                 →
               </span>
             </a>
-            <span className="font-manrope text-body-sm text-ink-mute tracking-wide">
+            <span className="font-sans text-body-sm text-ink-mute tracking-wide">
               flatelainc.co.za
             </span>
           </motion.div>
