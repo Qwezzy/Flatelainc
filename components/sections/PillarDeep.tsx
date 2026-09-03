@@ -26,16 +26,16 @@ function SynergyCallout({ slug }: { slug: string }) {
 
   return (
     <div className="bg-bronze/10 border border-bronze/20 rounded-lg p-5 flex flex-col gap-3">
-      <p className="eyebrow text-bronze">Cross-division connections</p>
+      <p className="eyebrow text-bronze">Intended connections</p>
       <ul className="flex flex-col gap-2">
         {connected.map((s) => {
           const other = s.a === slug ? s.b : s.a;
           return (
             <li key={`${s.a}-${s.b}`} className="flex flex-col">
-              <span className="font-fraunces italic text-forest-deep text-[15px]">
+              <span className="font-serif italic text-forest-deep text-[15px]">
                 {s.title}
               </span>
-              <span className="font-manrope text-body-sm text-ink-soft capitalize">
+              <span className="font-sans text-body-sm text-ink-soft capitalize">
                 with {other}
               </span>
             </li>
@@ -69,7 +69,7 @@ export default function PillarDeep() {
                   </Reveal>
                   <Reveal delay={0.05}>
                     <span
-                      className="font-fraunces font-light text-[120px] leading-none text-forest-pale select-none pointer-events-none block"
+                      className="font-serif font-light text-[120px] leading-none text-forest-pale select-none pointer-events-none block"
                       aria-hidden="true"
                     >
                       {pillar.number}
@@ -85,21 +85,21 @@ export default function PillarDeep() {
                   <Reveal>
                     <h2
                       id={`deep-${pillar.slug}-heading`}
-                      className="font-fraunces font-semibold text-display-lg lg:text-[48px] lg:leading-[1.08] text-forest-deep"
+                      className="font-serif-display font-semibold text-display-lg lg:text-[48px] lg:leading-[1.08] text-forest-deep"
                     >
                       {pillar.name}
                     </h2>
-                    <p className="font-fraunces italic text-[20px] text-ink-soft mt-2">
+                    <p className="font-serif italic text-[20px] text-ink-soft mt-2">
                       {pillar.tagline}
                     </p>
                   </Reveal>
 
                   <Reveal delay={0.1} className="flex flex-col gap-4">
-                    <p className="font-manrope text-body text-ink leading-[1.65]">
+                    <p className="font-sans text-body text-ink leading-[1.65]">
                       {pillar.summary}
                     </p>
-                    <p className="font-manrope text-body text-ink leading-[1.65]">
-                      As we grow this division, our goal is to become a recognisable name in South Africa — building trust through quality service, genuine community investment, and the structural advantage of operating within a family enterprise that shares resources, relationships, and resolve.
+                    <p className="font-sans text-body text-ink leading-[1.65]">
+                      As this intended line takes shape, the goal is to become a recognisable name in South Africa — building trust through quality, community investment, and the advantage of sitting inside a family holding company that can share resources and resolve. That is an aim, not a present-tense claim that the line already trades.
                     </p>
                   </Reveal>
 
@@ -108,7 +108,7 @@ export default function PillarDeep() {
                       {pillar.deepBullets.map((bullet) => (
                         <li key={bullet} className="flex items-start gap-3 text-bronze">
                           <LeafBullet />
-                          <span className="font-manrope text-body text-ink leading-[1.6]">
+                          <span className="font-sans text-body text-ink leading-[1.6]">
                             {bullet}
                           </span>
                         </li>

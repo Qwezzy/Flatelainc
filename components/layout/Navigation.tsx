@@ -5,12 +5,12 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
-  { label: "Story", href: "#story" },
-  { label: "Pillars", href: "#pillars" },
-  { label: "Synergies", href: "#synergies" },
-  { label: "Roadmap", href: "#roadmap" },
-  { label: "Values", href: "#values" },
-  { label: "Contact", href: "#contact" },
+  { label: "Story", href: "/#story" },
+  { label: "Pillars", href: "/#pillars" },
+  { label: "Synergies", href: "/#synergies" },
+  { label: "Roadmap", href: "/#roadmap" },
+  { label: "Values", href: "/#values" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 
@@ -63,16 +63,16 @@ export default function Navigation() {
       >
         <div className="max-w-6xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16 lg:h-20">
           <a
-            href="#"
+            href="/"
             className="flex items-center focus-bronze rounded-md"
-            aria-label="Flatela Inc. — return to top"
+            aria-label="Flatela Inc — return to top"
           >
             <Image
-              src="/flatela_logo_dark.png"
-              alt="Flatela Inc."
+              src="/flatela_logo_light.jpg"
+              alt="Flatela Inc"
               width={120}
               height={40}
-              className="h-10 w-auto object-contain"
+              className="h-10 w-auto object-contain mix-blend-multiply"
               priority
             />
           </a>
@@ -83,7 +83,7 @@ export default function Navigation() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className="font-manrope text-body-sm text-forest-deep hover:text-bronze transition-colors duration-200 focus-bronze rounded"
+                  className="font-sans text-body-sm text-forest-deep hover:text-bronze transition-colors duration-200 focus-bronze rounded"
                 >
                   {link.label}
                 </a>
@@ -132,11 +132,11 @@ export default function Navigation() {
             >
               <div className="flex items-center justify-between mb-12">
                 <Image
-                  src="/flatela_logo_dark.png"
-                  alt="Flatela Inc."
+                  src="/flatela_logo_light.jpg"
+                  alt="Flatela Inc"
                   width={100}
                   height={36}
-                  className="h-9 w-auto object-contain"
+                  className="h-9 w-auto object-contain mix-blend-multiply"
                 />
                 <button
                   onClick={closeDrawer}
@@ -155,7 +155,7 @@ export default function Navigation() {
                     <a
                       href={link.href}
                       onClick={closeDrawer}
-                      className="flex items-center gap-3 font-fraunces font-light text-[32px] leading-none text-forest-deep hover:text-bronze transition-colors duration-200 focus-bronze rounded"
+                      className="flex items-center gap-3 font-serif font-light text-[32px] leading-none text-forest-deep hover:text-bronze transition-colors duration-200 focus-bronze rounded"
                     >
                       <span className="text-forest-leaf mt-1">
                         <LeafMark />

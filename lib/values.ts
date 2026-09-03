@@ -1,8 +1,22 @@
 export const VALUES = [
-  { number: "01", name: "Family First", body: "Every decision is made with the long-term benefit of the family in mind." },
-  { number: "02", name: "Integrity", body: "Every transaction and interaction is conducted with honesty and transparency." },
-  { number: "03", name: "Community Impact", body: "We invest in the people and environments in which we operate." },
-  { number: "04", name: "Innovation", body: "We embrace new technology and approaches to stay ahead of the market." },
-  { number: "05", name: "Resilience", body: "We build businesses that endure through economic cycles and challenge." },
-  { number: "06", name: "Excellence", body: "We set high standards in every division and hold ourselves accountable to them." },
+  {
+    number: "01",
+    name: "Integrity",
+    body: "We describe the company as it is: FLATELA (PTY) LTD trading as Flatela Inc, a holding company registered in 2026. We do not overstate what is live.",
+  },
+  {
+    number: "02",
+    name: "Growth",
+    body: "We intend to grow patiently — through work that can last — rather than claims that outrun the company.",
+  },
+  {
+    number: "03",
+    name: "Foundation",
+    body: "The registered holding company is the legal foundation. Flatela Inc is the trading name. Intended pillars sit on that base; they are not separate trading entities today.",
+  },
+  {
+    number: "04",
+    name: "Sustainability",
+    body: "We aim to build in a way that can endure commercially, socially, and environmentally as the intended lines take shape.",
+  },
 ] as const;

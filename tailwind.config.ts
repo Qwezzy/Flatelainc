@@ -9,16 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: { DEFAULT: "#F5F1E8", soft: "#EFEAD8", paper: "#FBF8F0" },
-        forest: { deep: "#1F2817", mid: "#3A4A2A", leaf: "#6B8246", pale: "#B8C49A" },
-        earth: { deep: "#2A1F12", trunk: "#4A3520", warm: "#6B4E2E" },
-        bronze: { DEFAULT: "#B8941F", light: "#D4B458", dark: "#8C6E14" },
-        ink: { DEFAULT: "#1A1A14", soft: "#4A453A", mute: "#7A7468" },
-        rule: "#D4CDB8",
+        brown: { DEFAULT: "#533E2B" },
+        green: { DEFAULT: "#657D4F" },
+        moss: { DEFAULT: "#857D4E", light: "#A39A68", dark: "#6B6440" },
+        cream: { DEFAULT: "#F3F0E6", soft: "#E8E4D6", paper: "#F8F6EE" },
+        forest: { deep: "#533E2B", mid: "#657D4F", leaf: "#657D4F", pale: "#B5B39A" },
+        earth: { deep: "#3A2B1E", trunk: "#533E2B", warm: "#6B5340" },
+        bronze: { DEFAULT: "#857D4E", light: "#A39A68", dark: "#6B6440" },
+        ink: { DEFAULT: "#2A2218", soft: "#533E2B", mute: "#7A7268" },
+        rule: "#D9D3C4",
       },
       fontFamily: {
-        fraunces: ["var(--font-fraunces)", "Georgia", "serif"],
-        manrope: ["var(--font-manrope)", "system-ui", "sans-serif"],
+        "serif-display": ["var(--font-serif)", "Georgia", "serif"],
+        serif: ["var(--font-serif)", "Georgia", "serif"],
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
       },
       fontSize: {
         "display-xl": ["44px", { lineHeight: "1.05" }],
@@ -33,8 +37,8 @@ const config: Config = {
         eyebrow: "0.18em",
       },
       boxShadow: {
-        card: "0 24px 48px -24px rgba(31,40,23,0.18)",
-        "card-lg": "0 32px 64px -24px rgba(31,40,23,0.24)",
+        card: "0 24px 48px -24px rgba(83,62,43,0.18)",
+        "card-lg": "0 32px 64px -24px rgba(83,62,43,0.24)",
       },
       borderRadius: {
         md: "6px",

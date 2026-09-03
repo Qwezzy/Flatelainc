@@ -11,9 +11,9 @@ export default function Pillars() {
     >
       <div className="max-w-6xl mx-auto flex flex-col gap-12">
         <SectionHeader
-          eyebrow="02  ·  The Six Pillars"
-          headline="Six divisions. One foundation."
-          subhead="Each pillar addresses a real need in the South African market — and each strengthens the others."
+          eyebrow="02  ·  Six intended pillars"
+          headline="Six lines we intend to house. One holding company."
+          subhead="Each pillar addresses a real need in the South African market. None of them is presented here as a live trading division."
           ornament="02"
         />
 

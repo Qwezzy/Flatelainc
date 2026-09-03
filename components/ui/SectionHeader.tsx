@@ -49,7 +49,7 @@ export default function SectionHeader({
       <div className="relative">
         {ornament && (
           <span
-            className="absolute -top-6 -left-4 font-fraunces font-light text-[96px] leading-none text-forest-pale select-none pointer-events-none opacity-40 hidden lg:block"
+            className="absolute -top-6 -left-4 font-serif font-light text-[96px] leading-none text-forest-pale select-none pointer-events-none opacity-40 hidden lg:block"
             aria-hidden="true"
           >
             {ornament}
@@ -58,7 +58,7 @@ export default function SectionHeader({
         <motion.h2
           variants={variants}
           transition={{ duration: 0.8, ease: EASE }}
-          className={`font-fraunces font-light text-display-lg lg:text-[64px] lg:leading-[1.05] text-forest-deep text-balance relative z-10 ${headlineClassName}`}
+          className={`font-serif-display font-light text-display-lg lg:text-[64px] lg:leading-[1.05] text-forest-deep text-balance relative z-10 ${headlineClassName}`}
         >
           {headline}
         </motion.h2>
@@ -68,7 +68,7 @@ export default function SectionHeader({
         <motion.p
           variants={variants}
           transition={{ duration: 0.8, ease: EASE }}
-          className="font-manrope text-body-lg text-ink-soft max-w-2xl"
+          className="font-sans text-body-lg text-ink-soft max-w-2xl"
         >
           {subhead}
         </motion.p>

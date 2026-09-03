@@ -37,7 +37,7 @@ export default function Contact() {
         <Reveal delay={0.1}>
           <h2
             id="contact-heading"
-            className="font-fraunces font-light text-display-lg lg:text-[64px] lg:leading-[1.05] text-cream text-balance"
+            className="font-serif-display font-light text-display-lg lg:text-[64px] lg:leading-[1.05] text-cream text-balance"
           >
             Let&apos;s <em className="italic not-italic">talk</em> about
             <br />
@@ -46,10 +46,11 @@ export default function Contact() {
         </Reveal>
 
         <Reveal delay={0.15}>
-          <p className="font-manrope text-body-lg text-cream/70 max-w-xl leading-[1.6]">
+          <p className="font-sans text-body-lg text-cream/70 max-w-xl leading-[1.6]">
             We are open to conversations with potential partners, funders,
-            suppliers, and clients across all six divisions. If something here
-            resonates with the work you are doing — get in touch.
+            suppliers, and clients about the holding company and its intended
+            lines. If something here resonates with the work you are doing —
+            get in touch.
           </p>
         </Reveal>
 
@@ -59,12 +60,12 @@ export default function Contact() {
               <div key={c.label} className="flex items-start gap-3">
                 <LeafMark />
                 <div className="flex flex-col sm:flex-row sm:gap-4">
-                  <span className="font-manrope text-body-sm text-cream/50 uppercase tracking-eyebrow w-28 shrink-0">
+                  <span className="font-sans text-body-sm text-cream/50 uppercase tracking-eyebrow w-28 shrink-0">
                     {c.label}
                   </span>
                   <a
                     href={c.href}
-                    className="font-manrope text-body text-cream hover:text-bronze-light transition-colors duration-200 focus-bronze rounded"
+                    className="font-sans text-body text-cream hover:text-bronze-light transition-colors duration-200 focus-bronze rounded"
                   >
                     {c.value}
                   </a>
@@ -74,8 +75,10 @@ export default function Contact() {
 
             <div className="flex items-start gap-3 mt-2">
               <LeafMark />
-              <p className="font-manrope text-body text-cream/70">
-                Based in Gauteng, South Africa
+              <p className="font-sans text-body text-cream/70">
+                75 Kanna Street, Northmead Ext 4, Benoni, 1501
+                <br />
+                Gauteng, South Africa
               </p>
             </div>
           </div>

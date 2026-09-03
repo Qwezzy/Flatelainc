@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased — legal and brand accuracy
+
+- Present FLATELA (PTY) LTD t/a Flatela Inc; footer and legal pages use the legal name first
+- Six pillars rewritten as intended lines, not live divisions
+- Values: Integrity, Growth, Foundation, Sustainability
+- Remove IATA, POPIA-processor, SETA, Flatela Verify, and mixed Inc (Pty) Ltd claims
+- Brand tokens: brown / green / moss / cream
+- Interim fonts: Source Serif 4 + Source Sans 3
+- Add /privacy and /legal
+
+
 ## v1.0.0 — 2026-04-27
 
 Initial release of the Flatela Inc. public website.
