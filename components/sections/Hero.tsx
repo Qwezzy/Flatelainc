@@ -89,7 +89,7 @@ export default function Hero() {
           className="flex flex-col gap-6 max-w-3xl"
         >
           <motion.p variants={item} className="eyebrow text-ink-mute">
-            Flatela (Pty) Ltd &nbsp;·&nbsp; Registered 2026
+            Flatela &nbsp;·&nbsp; Registered 2026
           </motion.p>
 
           <motion.h1
