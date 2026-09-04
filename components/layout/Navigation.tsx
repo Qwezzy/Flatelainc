@@ -61,18 +61,18 @@ export default function Navigation() {
         }`}
         aria-label="Main navigation"
       >
-        <div className="max-w-6xl mx-auto px-6 lg:px-12 flex items-center justify-between h-16 lg:h-20">
+        <div className="max-w-6xl mx-auto px-6 lg:px-12 flex items-center justify-between h-20 lg:h-24">
           <a
             href="/"
             className="flex items-center focus-moss rounded-md"
             aria-label="Flatela — return to top"
           >
             <Image
-              src="/flatela_logo_light.jpg"
+              src="/flatela-logo.svg"
               alt="Flatela"
-              width={120}
-              height={40}
-              className="h-10 w-auto object-contain mix-blend-multiply"
+              width={454}
+              height={340}
+              className="h-12 lg:h-16 w-auto object-contain"
               priority
             />
           </a>
@@ -132,11 +132,11 @@ export default function Navigation() {
             >
               <div className="flex items-center justify-between mb-12">
                 <Image
-                  src="/flatela_logo_light.jpg"
+                  src="/flatela-logo.svg"
                   alt="Flatela"
-                  width={100}
-                  height={36}
-                  className="h-9 w-auto object-contain mix-blend-multiply"
+                  width={454}
+                  height={340}
+                  className="h-12 w-auto object-contain"
                 />
                 <button
                   onClick={closeDrawer}
