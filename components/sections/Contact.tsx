@@ -32,51 +32,53 @@ export default function Contact() {
       className="bg-brown py-20 lg:py-32 px-6 lg:px-12"
       aria-labelledby="contact-heading"
     >
-      <div className="max-w-4xl mx-auto flex flex-col gap-10">
-        <Reveal>
-          <p className="eyebrow text-moss">06  ·  Connect With Us</p>
-        </Reveal>
+      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
+        <div className="lg:col-span-5 flex flex-col gap-6">
+          <Reveal>
+            <p className="eyebrow text-moss">06  ·  Connect With Us</p>
+          </Reveal>
 
-        <Reveal delay={0.1}>
-          <h2
-            id="contact-heading"
-            className="font-serif-display font-light text-display-lg lg:text-[64px] lg:leading-[1.05] text-cream text-balance"
-          >
-            Let&apos;s <em className="italic not-italic">talk</em> about
-            <br />
-            what we are building.
-          </h2>
-        </Reveal>
+          <Reveal delay={0.1}>
+            <h2
+              id="contact-heading"
+              className="font-serif-display font-light text-display-lg lg:text-[64px] lg:leading-[1.05] text-cream text-balance"
+            >
+              Let&apos;s <em className="italic not-italic">talk</em> about what we are building.
+            </h2>
+          </Reveal>
 
-        <Reveal delay={0.15}>
-          <p className="font-sans text-body-lg text-cream/70 max-w-xl leading-[1.6]">
-            We are open to conversations with potential partners, funders,
-            suppliers, and clients about the holding company and its intended
-            lines. If something here resonates with the work you are doing —
-            get in touch.
-          </p>
-        </Reveal>
+          <Reveal delay={0.15}>
+            <p className="font-sans text-body-lg text-cream/70 max-w-xl leading-[1.6]">
+              We are open to conversations with potential partners, funders,
+              suppliers, and clients about the holding company and its intended
+              lines. If something here resonates with the work you are doing —
+              get in touch.
+            </p>
+          </Reveal>
+        </div>
 
-        <Reveal delay={0.2}>
-          <div className="flex flex-col gap-4 mt-2">
-            {contacts.map((c) => (
-              <div key={c.label} className="flex items-start gap-3">
-                <LeafMark />
-                <div className="flex flex-col sm:flex-row sm:gap-4">
-                  <span className="font-sans text-body-sm text-cream/50 uppercase tracking-eyebrow w-28 shrink-0">
-                    {c.label}
-                  </span>
-                  <a
-                    href={c.href}
-                    className="font-sans text-body text-cream hover:text-moss-light transition-colors duration-200 focus-moss rounded"
-                  >
-                    {c.value}
-                  </a>
+        <div className="lg:col-span-7">
+          <Reveal delay={0.2}>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5">
+              {contacts.map((c) => (
+                <div key={c.label} className="flex items-start gap-3">
+                  <LeafMark />
+                  <div className="flex flex-col min-w-0">
+                    <span className="font-sans text-body-sm text-cream/50 uppercase tracking-eyebrow">
+                      {c.label}
+                    </span>
+                    <a
+                      href={c.href}
+                      className="font-sans text-body text-cream hover:text-moss-light transition-colors duration-200 focus-moss rounded break-all"
+                    >
+                      {c.value}
+                    </a>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
 
-            <div className="flex items-start gap-3 mt-2">
+            <div className="flex items-start gap-3 mt-8 pt-6 border-t border-cream/15">
               <LeafMark />
               <p className="font-sans text-body text-cream/70">
                 75 Kanna Street, Northmead Ext 4, Benoni, 1501
@@ -84,8 +86,8 @@ export default function Contact() {
                 Gauteng, South Africa
               </p>
             </div>
-          </div>
-        </Reveal>
+          </Reveal>
+        </div>
       </div>
     </section>
   );

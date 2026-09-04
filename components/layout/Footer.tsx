@@ -27,11 +27,11 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8 pb-12 border-b border-green">
           <div className="lg:col-span-1">
             <Image
-              src="/flatela_logo_dark.png"
+              src="/flatela-logo-on-dark.svg"
               alt="Flatela"
-              width={160}
-              height={80}
-              className="mb-4 mix-blend-screen"
+              width={454}
+              height={340}
+              className="mb-4 w-52 lg:w-56 h-auto"
             />
             <p className="font-sans text-body-sm text-moss-pale leading-relaxed max-w-xs">
               FLATELA (PTY) LTD is a holding company registered in 2026. It will
