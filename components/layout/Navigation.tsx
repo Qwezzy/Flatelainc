@@ -72,7 +72,7 @@ export default function Navigation() {
               alt="Flatela"
               width={454}
               height={340}
-              className="h-12 lg:h-16 w-auto object-contain"
+              className="h-14 lg:h-20 w-auto object-contain"
               priority
             />
           </a>
@@ -136,7 +136,7 @@ export default function Navigation() {
                   alt="Flatela"
                   width={454}
                   height={340}
-                  className="h-12 w-auto object-contain"
+                  className="h-14 w-auto object-contain"
                 />
                 <button
                   onClick={closeDrawer}

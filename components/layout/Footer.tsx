@@ -31,7 +31,7 @@ export default function Footer() {
               alt="Flatela"
               width={454}
               height={340}
-              className="mb-4 w-52 lg:w-56 h-auto"
+              className="mb-4 w-64 lg:w-72 h-auto"
             />
             <p className="font-sans text-body-sm text-moss-pale leading-relaxed max-w-xs">
               FLATELA (PTY) LTD is a holding company registered in 2026. It will
