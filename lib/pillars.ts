@@ -19,12 +19,16 @@ export const PILLARS = [
     name: "Data & Technology",
     tagline: "Turning information into better decisions.",
     icon: "circuit" as const,
-    summary: `An intended holding-company line for survey research, secure storage, machine learning, and data management tailored to South African needs. It is a planned area of work, not a live processor or trading division.`,
+    summary: `An intended line of FLATELA (PTY) LTD for survey research, secure storage, machine learning, and data management tailored to South African needs — one planned home for information work. It is not a live processor, SaaS shop, or trading division. Storage may be designed with POPIA in mind as an intention; we do not claim live POPIA-processor status.`,
     deepBullets: [
+      "Purpose: an intended holdco line for survey, storage, ML, and data management — not a live processor",
+      "Intended for: organisations and projects that need fieldwork, careful storage, and decision tooling once the line exists",
+      "Intended later: learner systems and dashboards with Education if both lines exist",
       "Intended: survey design, fieldwork, and reporting",
       "Intended: cloud and on-premise storage designed with POPIA in mind",
       "Intended: machine learning for South African use cases",
       "Intended: data pipelines, governance, and BI infrastructure",
+      "Limit: Benoni address is the holdco registered address, not a data centre",
     ],
   },
   {
@@ -93,5 +97,7 @@ export type PillarIcon = (typeof PILLARS)[number]["icon"];
 export type Pillar = (typeof PILLARS)[number];
 
 export function pillarMoreHref(slug: Pillar["slug"]) {
-  return slug === "education" ? "/education" : `/#${slug}`;
+  if (slug === "education") return "/education";
+  if (slug === "data") return "/data";
+  return `/#${slug}`;
 }

@@ -3,6 +3,7 @@ import Reveal from "@/components/ui/Reveal";
 import { PILLARS } from "@/lib/pillars";
 import { SYNERGIES } from "@/lib/synergies";
 import { EDUCATION } from "@/lib/education";
+import { DATA } from "@/lib/data";
 
 function LeafBullet() {
   return (
@@ -89,6 +90,49 @@ function EducationHomeExtras() {
   );
 }
 
+
+function DataHomeExtras() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{DATA.purpose.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {DATA.purpose.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{DATA.audience.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {DATA.audience.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{DATA.limits.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {DATA.limits.body}
+        </p>
+        <ul className="flex flex-col gap-3" role="list">
+          {DATA.limits.bullets.map((bullet) => (
+            <li key={bullet} className="flex items-start gap-3 text-moss">
+              <LeafBullet />
+              <span className="font-sans text-body-sm text-ink leading-[1.6]">
+                {bullet}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a
+        href="/data"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded w-fit"
+      >
+        Read the full Data & Technology page
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  );
+}
+
 export default function PillarDeep() {
   return (
     <>
@@ -160,6 +204,12 @@ export default function PillarDeep() {
                   {pillar.slug === "education" && (
                     <Reveal delay={0.18}>
                       <EducationHomeExtras />
+                    </Reveal>
+                  )}
+
+                  {pillar.slug === "data" && (
+                    <Reveal delay={0.18}>
+                      <DataHomeExtras />
                     </Reveal>
                   )}
 
