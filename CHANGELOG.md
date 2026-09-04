@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Data & Technology pillar page
+
+- Add dedicated `/data` route for intended holdco line 02
+- Expand Data & Technology copy (purpose, audience, intended offerings, honest limits)
+- Home `#data` deep section reads from `lib/data.ts`; footer and Data card link to `/data`
+- Contact lists `data@flatelainc.co.za` alongside other pillar addresses
+
 ## Unreleased — Education pillar page
 
 - Add dedicated `/education` route for intended holdco line 06
