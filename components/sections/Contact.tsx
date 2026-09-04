@@ -22,6 +22,7 @@ const contacts = [
   { label: "Travel", value: "travel@flatelainc.co.za", href: "mailto:travel@flatelainc.co.za" },
   { label: "Energy", value: "energy@flatelainc.co.za", href: "mailto:energy@flatelainc.co.za" },
   { label: "Property", value: "property@flatelainc.co.za", href: "mailto:property@flatelainc.co.za" },
+  { label: "Retail", value: "retail@flatelainc.co.za", href: "mailto:retail@flatelainc.co.za" },
 ];
 
 export default function Contact() {

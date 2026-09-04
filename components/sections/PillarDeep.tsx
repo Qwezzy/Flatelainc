@@ -6,6 +6,8 @@ import { EDUCATION } from "@/lib/education";
 import { DATA } from "@/lib/data";
 import { TRAVEL } from "@/lib/travel";
 import { ENERGY } from "@/lib/energy";
+import { PROPERTY } from "@/lib/property";
+import { RETAIL } from "@/lib/retail";
 
 function LeafBullet() {
   return (
@@ -219,6 +221,91 @@ function EnergyHomeExtras() {
   );
 }
 
+
+function PropertyHomeExtras() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{PROPERTY.purpose.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {PROPERTY.purpose.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{PROPERTY.audience.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {PROPERTY.audience.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{PROPERTY.limits.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {PROPERTY.limits.body}
+        </p>
+        <ul className="flex flex-col gap-3" role="list">
+          {PROPERTY.limits.bullets.map((bullet) => (
+            <li key={bullet} className="flex items-start gap-3 text-moss">
+              <LeafBullet />
+              <span className="font-sans text-body-sm text-ink leading-[1.6]">
+                {bullet}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a
+        href="/property"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded w-fit"
+      >
+        Read the full Property page
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  );
+}
+
+function RetailHomeExtras() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{RETAIL.purpose.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {RETAIL.purpose.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{RETAIL.audience.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {RETAIL.audience.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{RETAIL.limits.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {RETAIL.limits.body}
+        </p>
+        <ul className="flex flex-col gap-3" role="list">
+          {RETAIL.limits.bullets.map((bullet) => (
+            <li key={bullet} className="flex items-start gap-3 text-moss">
+              <LeafBullet />
+              <span className="font-sans text-body-sm text-ink leading-[1.6]">
+                {bullet}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a
+        href="/retail"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded w-fit"
+      >
+        Read the full Retail page
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  );
+}
+
 export default function PillarDeep() {
   return (
     <>
@@ -308,6 +395,18 @@ export default function PillarDeep() {
                   {pillar.slug === "energy" && (
                     <Reveal delay={0.18}>
                       <EnergyHomeExtras />
+                    </Reveal>
+                  )}
+
+                  {pillar.slug === "property" && (
+                    <Reveal delay={0.18}>
+                      <PropertyHomeExtras />
+                    </Reveal>
+                  )}
+
+                  {pillar.slug === "retail" && (
+                    <Reveal delay={0.18}>
+                      <RetailHomeExtras />
                     </Reveal>
                   )}
 
