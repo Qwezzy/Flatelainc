@@ -4,6 +4,8 @@ import { PILLARS } from "@/lib/pillars";
 import { SYNERGIES } from "@/lib/synergies";
 import { EDUCATION } from "@/lib/education";
 import { DATA } from "@/lib/data";
+import { TRAVEL } from "@/lib/travel";
+import { ENERGY } from "@/lib/energy";
 
 function LeafBullet() {
   return (
@@ -133,6 +135,90 @@ function DataHomeExtras() {
   );
 }
 
+function TravelHomeExtras() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{TRAVEL.purpose.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {TRAVEL.purpose.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{TRAVEL.audience.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {TRAVEL.audience.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{TRAVEL.limits.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {TRAVEL.limits.body}
+        </p>
+        <ul className="flex flex-col gap-3" role="list">
+          {TRAVEL.limits.bullets.map((bullet) => (
+            <li key={bullet} className="flex items-start gap-3 text-moss">
+              <LeafBullet />
+              <span className="font-sans text-body-sm text-ink leading-[1.6]">
+                {bullet}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a
+        href="/travel"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded w-fit"
+      >
+        Read the full Travel page
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  );
+}
+
+function EnergyHomeExtras() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{ENERGY.purpose.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {ENERGY.purpose.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{ENERGY.audience.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {ENERGY.audience.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{ENERGY.limits.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {ENERGY.limits.body}
+        </p>
+        <ul className="flex flex-col gap-3" role="list">
+          {ENERGY.limits.bullets.map((bullet) => (
+            <li key={bullet} className="flex items-start gap-3 text-moss">
+              <LeafBullet />
+              <span className="font-sans text-body-sm text-ink leading-[1.6]">
+                {bullet}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a
+        href="/energy"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded w-fit"
+      >
+        Read the full Energy page
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  );
+}
+
 export default function PillarDeep() {
   return (
     <>
@@ -210,6 +296,18 @@ export default function PillarDeep() {
                   {pillar.slug === "data" && (
                     <Reveal delay={0.18}>
                       <DataHomeExtras />
+                    </Reveal>
+                  )}
+
+                  {pillar.slug === "travel" && (
+                    <Reveal delay={0.18}>
+                      <TravelHomeExtras />
+                    </Reveal>
+                  )}
+
+                  {pillar.slug === "energy" && (
+                    <Reveal delay={0.18}>
+                      <EnergyHomeExtras />
                     </Reveal>
                   )}
 

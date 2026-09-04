@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — Travel and Energy pillar pages
+
+- Add dedicated `/travel` and `/energy` routes for intended holdco lines 04 and 05
+- Expand Travel and Energy copy (purpose, audience, intended programmes, honest limits)
+- Home `#travel` / `#energy` deep sections read from `lib/travel.ts` / `lib/energy.ts`; footer and cards link to `/travel` and `/energy`
+- Contact lists `travel@flatelainc.co.za` alongside education@ / data@ / energy@
+
 ## Unreleased — Data & Technology pillar page
 
 - Add dedicated `/data` route for intended holdco line 02
