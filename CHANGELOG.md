@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased — Education pillar page
+
+- Add dedicated `/education` route for intended holdco line 06
+- Expand Education copy (purpose, audience, intended programmes, honest limits)
+- Home `#education` deep section reads from `lib/education.ts`; footer and Education card link to `/education`
+
 ## Unreleased — legal and brand accuracy
 
 - Present holding company FLATELA (PTY) LTD (2026/291183/07); public name Flatela; chrome uses legal name plus public name Flatela

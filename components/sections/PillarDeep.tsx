@@ -2,6 +2,7 @@ import PillarIcon from "@/components/ui/PillarIcon";
 import Reveal from "@/components/ui/Reveal";
 import { PILLARS } from "@/lib/pillars";
 import { SYNERGIES } from "@/lib/synergies";
+import { EDUCATION } from "@/lib/education";
 
 function LeafBullet() {
   return (
@@ -46,6 +47,48 @@ function SynergyCallout({ slug }: { slug: string }) {
   );
 }
 
+function EducationHomeExtras() {
+  return (
+    <div className="flex flex-col gap-6">
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{EDUCATION.purpose.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {EDUCATION.purpose.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{EDUCATION.audience.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {EDUCATION.audience.body}
+        </p>
+      </div>
+      <div className="flex flex-col gap-3">
+        <p className="eyebrow text-moss">{EDUCATION.limits.heading}</p>
+        <p className="font-sans text-body text-ink leading-[1.65]">
+          {EDUCATION.limits.body}
+        </p>
+        <ul className="flex flex-col gap-3" role="list">
+          {EDUCATION.limits.bullets.map((bullet) => (
+            <li key={bullet} className="flex items-start gap-3 text-moss">
+              <LeafBullet />
+              <span className="font-sans text-body-sm text-ink leading-[1.6]">
+                {bullet}
+              </span>
+            </li>
+          ))}
+        </ul>
+      </div>
+      <a
+        href="/education"
+        className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 focus-moss rounded w-fit"
+      >
+        Read the full Education page
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  );
+}
+
 export default function PillarDeep() {
   return (
     <>
@@ -62,7 +105,6 @@ export default function PillarDeep() {
           >
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-start">
-                {/* Left */}
                 <div className="lg:col-span-4 flex flex-col gap-4">
                   <Reveal>
                     <p className="eyebrow text-moss">Pillar {pillar.number}</p>
@@ -80,7 +122,6 @@ export default function PillarDeep() {
                   </Reveal>
                 </div>
 
-                {/* Right */}
                 <div className="lg:col-span-8 flex flex-col gap-8">
                   <Reveal>
                     <h2
@@ -116,10 +157,17 @@ export default function PillarDeep() {
                     </ul>
                   </Reveal>
 
+                  {pillar.slug === "education" && (
+                    <Reveal delay={0.18}>
+                      <EducationHomeExtras />
+                    </Reveal>
+                  )}
+
                   <Reveal delay={0.2}>
                     <SynergyCallout slug={pillar.slug} />
                   </Reveal>
-                </div>
+
+                                  </div>
               </div>
             </div>
           </section>

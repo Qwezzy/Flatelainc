@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import PillarIcon from "@/components/ui/PillarIcon";
-import { Pillar } from "@/lib/pillars";
+import { Pillar, pillarMoreHref } from "@/lib/pillars";
 
 interface PillarCardProps {
   pillar: Pillar;
@@ -50,7 +50,7 @@ export default function PillarCard({ pillar, index }: PillarCardProps) {
       </p>
 
       <a
-        href={`/#${pillar.slug}`}
+        href={pillarMoreHref(pillar.slug)}
         className="inline-flex items-center gap-1.5 font-sans text-body-sm text-moss hover:text-moss-light transition-colors duration-200 mt-auto focus-moss rounded group/link"
       >
         Read more

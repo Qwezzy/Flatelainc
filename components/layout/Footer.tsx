@@ -6,7 +6,7 @@ const pillarLinks = [
   { label: "Retail", href: "/#retail" },
   { label: "Travel", href: "/#travel" },
   { label: "Energy", href: "/#energy" },
-  { label: "Education", href: "/#education" },
+  { label: "Education", href: "/education" },
 ];
 
 const roadmapLinks = [
