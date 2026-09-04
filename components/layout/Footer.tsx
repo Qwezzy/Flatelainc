@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 const pillarLinks = [
-  { label: "Property", href: "/#property" },
+  { label: "Property", href: "/property" },
   { label: "Data & Technology", href: "/data" },
-  { label: "Retail", href: "/#retail" },
+  { label: "Retail", href: "/retail" },
   { label: "Travel", href: "/travel" },
   { label: "Energy", href: "/energy" },
   { label: "Education", href: "/education" },

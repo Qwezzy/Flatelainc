@@ -5,12 +5,16 @@ export const PILLARS = [
     name: "Property",
     tagline: "Spaces people are proud to call home.",
     icon: "house" as const,
-    summary: `An intended line for residential renovation and managed rental portfolios — addressing South Africa's need for quality, well-located housing. The work, when it begins, would be to acquire, renovate, furnish, and let properties. This is not a live trading division today.`,
+    summary: `An intended line of FLATELA (PTY) LTD for residential renovation and managed rental portfolios — addressing South Africa's need for quality, well-located housing. When the work begins, the plan is to acquire, renovate, furnish, and let properties. Property is not a live landlord, estate agent, or trading division on this site.`,
     deepBullets: [
+      "Purpose: an intended holdco line for residential renovation and managed rentals — not a live landlord",
+      "Intended for: future tenants and investors once real assets and real work exist — no catchment claims",
+      "Intended later: solar with Energy and furnishing with Retail if those lines exist",
       "Intended: end-to-end residential renovations",
       "Intended: buy-to-let rental portfolios in urban nodes",
-      "Intended: solar considered alongside Energy work",
+      "Intended: solar considered alongside Energy work — not installed today",
       "Intended: furnishing supported by Retail sourcing",
+      "Limit: Benoni address is the holdco registered address, not a showroom",
     ],
   },
   {
@@ -37,12 +41,16 @@ export const PILLARS = [
     name: "Retail",
     tagline: "Bringing considered goods into South African homes.",
     icon: "package" as const,
-    summary: `An intended line for direct importation of fashion goods and furniture, sold through e-commerce and wholesale channels. Furniture supply could later support Property renovations. Retail is not a live division today.`,
+    summary: `An intended line of FLATELA (PTY) LTD for direct importation of fashion goods and furniture, sold through e-commerce and wholesale channels when the line is real. Furniture supply could later support Property renovations. Retail is not a live shop, stocked catalogue, or wholesale book on this site.`,
     deepBullets: [
+      "Purpose: an intended holdco line for fashion and furniture import — not a live shop",
+      "Intended for: buyers of considered goods into SA homes once the line exists — no named brands as stocked",
+      "Intended later: supply into Property and Travel if those lines start",
       "Intended: fashion apparel, footwear, and accessories",
       "Intended: furniture and homeware from selected markets",
       "Intended: e-commerce and wholesale distribution",
       "Intended: supply into Property and Travel work as those lines start",
+      "Limit: Benoni address is the holdco registered address, not a warehouse open to the public",
     ],
   },
   {
@@ -109,5 +117,7 @@ export function pillarMoreHref(slug: Pillar["slug"]) {
   if (slug === "data") return "/data";
   if (slug === "travel") return "/travel";
   if (slug === "energy") return "/energy";
+  if (slug === "property") return "/property";
+  if (slug === "retail") return "/retail";
   return `/#${slug}`;
 }
