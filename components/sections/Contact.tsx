@@ -19,6 +19,7 @@ const contacts = [
   { label: "Partnerships", value: "partners@flatelainc.co.za", href: "mailto:partners@flatelainc.co.za" },
   { label: "Education", value: "education@flatelainc.co.za", href: "mailto:education@flatelainc.co.za" },
   { label: "Data & Technology", value: "data@flatelainc.co.za", href: "mailto:data@flatelainc.co.za" },
+  { label: "Travel", value: "travel@flatelainc.co.za", href: "mailto:travel@flatelainc.co.za" },
   { label: "Energy", value: "energy@flatelainc.co.za", href: "mailto:energy@flatelainc.co.za" },
   { label: "Property", value: "property@flatelainc.co.za", href: "mailto:property@flatelainc.co.za" },
 ];

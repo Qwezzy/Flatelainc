@@ -51,12 +51,16 @@ export const PILLARS = [
     name: "Travel",
     tagline: "Journeys remembered for a lifetime.",
     icon: "compass" as const,
-    summary: `An intended line for leisure, corporate, and educational travel. Packages for school excursions would be designed with the Education line if both are built. This is not a live travel agency and we do not claim IATA accreditation.`,
+    summary: `An intended line of FLATELA (PTY) LTD for leisure, corporate, and educational travel — planned agency work, not a live travel agency. Packages for school excursions would be designed with the Education line if both are built. We do not claim IATA accreditation or host-agency status.`,
     deepBullets: [
+      "Purpose: an intended holdco line for leisure, corporate, and educational travel — not a live agency",
+      "Intended for: leisure travellers, SA businesses, and school groups via Education if both lines exist",
+      "Intended later: Career Expo logistics alongside Education if both lines exist",
       "Intended: flights, hotels, visas, insurance, and curated tours",
       "Intended: corporate travel management for South African businesses",
-      "Intended: educational excursion packages for schools",
+      "Intended: educational excursion packages for schools if Education exists",
       "Intended: Career Expo logistics alongside Education",
+      "Limit: Benoni address is the holdco registered address, not a travel branch",
     ],
   },
   {
@@ -65,12 +69,16 @@ export const PILLARS = [
     name: "Energy",
     tagline: "Cleaner, more reliable power for South African sites.",
     icon: "sun" as const,
-    summary: `An intended line for residential and commercial solar PV, battery storage, and related energy work — answering a real national need. Near-term cash flow from this work, if it starts, could fund longer-horizon projects. Energy is not a live installation business on this site.`,
+    summary: `An intended line of FLATELA (PTY) LTD for residential and commercial solar PV, battery storage, and related energy work — answering a real national need. Near-term cash flow from this work, if it starts, could fund longer-horizon projects. That is a hope, not revenue today. Energy is not a live installation business on this site.`,
     deepBullets: [
+      "Purpose: an intended holdco line for solar PV, battery storage, and related energy work — not a live installer",
+      "Intended for: homes and commercial sites needing resilience once the line exists",
+      "Intended later: a flagship Education Centre install if the Centre is built",
       "Intended: grid-tied, off-grid, and hybrid solar PV systems",
       "Intended: battery storage for load-shedding resilience",
       "Intended: energy audits, installation, and monitoring",
-      "Intended: a flagship installation if an Education Centre is built",
+      "Intended: a flagship installation if an Education Centre is built — planned, not installed",
+      "Limit: Benoni address is the holdco registered address, not a depot",
     ],
   },
   {
@@ -99,5 +107,7 @@ export type Pillar = (typeof PILLARS)[number];
 export function pillarMoreHref(slug: Pillar["slug"]) {
   if (slug === "education") return "/education";
   if (slug === "data") return "/data";
+  if (slug === "travel") return "/travel";
+  if (slug === "energy") return "/energy";
   return `/#${slug}`;
 }
