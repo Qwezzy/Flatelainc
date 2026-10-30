@@ -35,7 +35,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-cream/[0.63] mb-4">Intended pillars</p>
+            <p className="eyebrow !text-cream/[0.63] mb-4">Intended pillars</p>
             <ul className="flex flex-col gap-2.5">
               {pillarLinks.map((l) => (
                 <li key={l.href}>
@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-cream/[0.63] mb-4">Roadmap</p>
+            <p className="eyebrow !text-cream/[0.63] mb-4">Roadmap</p>
             <ul className="flex flex-col gap-2.5">
               {roadmapLinks.map((l) => (
                 <li key={l.label}>
@@ -67,7 +67,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-cream/[0.63] mb-4">Legal</p>
+            <p className="eyebrow !text-cream/[0.63] mb-4">Legal</p>
             <ul className="flex flex-col gap-2.5">
               {legalLinks.map((l) => (
                 <li key={l.label}>
