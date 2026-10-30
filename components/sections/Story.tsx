@@ -29,10 +29,10 @@ export default function Story() {
               <p className="font-sans text-body text-ink leading-[1.65]">
                 In 2024, our family came together with a simple question: what would
                 it look like if we pooled our talents, our networks, and our
-                determination into something we could grow together — and pass on?
+                determination into something we could grow together and pass on?
               </p>
               <p className="font-sans text-body text-ink leading-[1.65]">
-                The answer is Flatela — public name of holding company FLATELA
+                The answer is Flatela, the public name of holding company FLATELA
                 (PTY) LTD, registered on 9 April 2026 (2026/291183/07). It is
                 structured around work we intend to grow: building homes, working
                 with data, sourcing goods, planning travel, generating cleaner

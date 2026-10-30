@@ -23,7 +23,7 @@ const description =
 export const metadata: Metadata = {
   metadataBase: new URL("https://flatelainc.co.za"),
   title: {
-    default: "Flatela — FLATELA (PTY) LTD",
+    default: "Flatela | FLATELA (PTY) LTD",
     template: "%s | Flatela",
   },
   description,

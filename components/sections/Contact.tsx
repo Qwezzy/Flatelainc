@@ -51,7 +51,7 @@ export default function Contact() {
             <p className="font-sans text-body-lg text-cream/70 max-w-xl leading-[1.6]">
               We are open to conversations with potential partners, funders,
               suppliers, and clients about the holding company and its intended
-              lines. If something here resonates with the work you are doing —
+              lines. If something here resonates with the work you are doing,
               get in touch.
             </p>
           </Reveal>

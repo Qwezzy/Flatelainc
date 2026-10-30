@@ -62,8 +62,10 @@ export default function LegalPage() {
         No extra claims
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        We do not claim IATA accreditation, SETA or government funding, a
-        commercial POPIA-processor service, or educator-screening products. We
+        We do not claim IATA accreditation, SETA or government funding,
+        or educator-screening products. We do not hold any POPIA
+        certification or accreditation. Where we handle personal information
+        for a client, we do so only under a written agreement. We
         do not publish a VAT number on this site. Origin-story dates (a family
         conversation in 2024) are narrative only; the company was registered in
         2026.

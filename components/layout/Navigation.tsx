@@ -65,7 +65,7 @@ export default function Navigation() {
           <a
             href="/"
             className="flex items-center focus-moss rounded-md"
-            aria-label="Flatela — return to top"
+            aria-label="Flatela: return to top"
           >
             <Image
               src="/flatela-logo.svg"

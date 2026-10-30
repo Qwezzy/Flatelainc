@@ -111,7 +111,7 @@ export default function Hero() {
             FLATELA (PTY) LTD is a holding company registered in South Africa
             in 2026 (2026/291183/07). Public name Flatela. It will house intended
             pillar projects across Property, Data & Technology, Retail,
-            Travel, Energy, and Education — planned lines, not live
+            Travel, Energy, and Education: planned lines, not live
             divisions.
           </motion.p>
 
