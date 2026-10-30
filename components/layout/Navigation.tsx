@@ -67,7 +67,7 @@ export default function Navigation() {
             className="flex items-center focus-moss rounded-md"
             aria-label="Flatela"
           >
-            <Image src="/flatela-wordmark-primary-leaf.svg" alt="Flatela" width={148} height={40} className="h-[35px] lg:h-[40px] w-auto" priority />
+            <Image unoptimized src="/flatela-wordmark-primary-leaf.svg" alt="Flatela" width={148} height={40} className="h-[35px] lg:h-[40px] w-auto" priority />
           </a>
 
           {/* Desktop links */}
@@ -124,7 +124,7 @@ export default function Navigation() {
               aria-label="Navigation menu"
             >
               <div className="flex items-center justify-between mb-12">
-                <a href="/" onClick={closeDrawer} aria-label="Flatela" className="focus-moss rounded-md"><Image src="/flatela-wordmark-primary-leaf.svg" alt="Flatela" width={130} height={35} className="h-[35px] w-auto" /></a>
+                <a href="/" onClick={closeDrawer} aria-label="Flatela" className="focus-moss rounded-md"><Image unoptimized src="/flatela-wordmark-primary-leaf.svg" alt="Flatela" width={130} height={35} className="h-[35px] w-auto" /></a>
                 <button
                   onClick={closeDrawer}
                   className="p-2 text-brown focus-moss rounded"
