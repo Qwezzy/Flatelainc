@@ -4,15 +4,15 @@ import Footer from "@/components/layout/Footer";
 import EnergyPillar from "@/components/sections/EnergyPillar";
 
 const description =
-  "Energy is an intended line of FLATELA (PTY) LTD. Flatela plans residential and commercial solar PV, battery storage, and related energy work — not a live installation business.";
+  "Energy is an intended line of FLATELA (PTY) LTD. Flatela plans residential and commercial solar PV, battery storage, and related energy work, not a live installation business.";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Energy — Flatela · FLATELA (PTY) LTD",
+    absolute: "Energy | Flatela · FLATELA (PTY) LTD",
   },
   description,
   openGraph: {
-    title: "Energy — Flatela · FLATELA (PTY) LTD",
+    title: "Energy | Flatela · FLATELA (PTY) LTD",
     description,
     url: "https://flatelainc.co.za/energy",
     siteName: "Flatela",

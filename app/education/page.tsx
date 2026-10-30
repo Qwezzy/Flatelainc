@@ -4,15 +4,15 @@ import Footer from "@/components/layout/Footer";
 import EducationPillar from "@/components/sections/EducationPillar";
 
 const description =
-  "Education is an intended line of FLATELA (PTY) LTD. Flatela plans a community Education Centre — not a live school, campus, or enrolment product.";
+  "Education is an intended line of FLATELA (PTY) LTD. Flatela plans a community Education Centre, not a live school, campus, or enrolment product.";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Education — Flatela · FLATELA (PTY) LTD",
+    absolute: "Education | Flatela · FLATELA (PTY) LTD",
   },
   description,
   openGraph: {
-    title: "Education — Flatela · FLATELA (PTY) LTD",
+    title: "Education | Flatela · FLATELA (PTY) LTD",
     description,
     url: "https://flatelainc.co.za/education",
     siteName: "Flatela",

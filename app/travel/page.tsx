@@ -4,15 +4,15 @@ import Footer from "@/components/layout/Footer";
 import TravelPillar from "@/components/sections/TravelPillar";
 
 const description =
-  "Travel is an intended line of FLATELA (PTY) LTD. Flatela plans leisure, corporate, and educational travel work — not a live travel agency, and we do not claim IATA accreditation.";
+  "Travel is an intended line of FLATELA (PTY) LTD. Flatela plans leisure, corporate, and educational travel work, not a live travel agency, and we do not claim IATA accreditation.";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Travel — Flatela · FLATELA (PTY) LTD",
+    absolute: "Travel | Flatela · FLATELA (PTY) LTD",
   },
   description,
   openGraph: {
-    title: "Travel — Flatela · FLATELA (PTY) LTD",
+    title: "Travel | Flatela · FLATELA (PTY) LTD",
     description,
     url: "https://flatelainc.co.za/travel",
     siteName: "Flatela",
