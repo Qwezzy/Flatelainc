@@ -32,7 +32,6 @@ export const metadata: Metadata = {
     description,
     url: "https://flatelainc.co.za",
     siteName: "Flatela",
-    images: ["/og-image.png"],
     locale: "en_ZA",
     type: "website",
   },

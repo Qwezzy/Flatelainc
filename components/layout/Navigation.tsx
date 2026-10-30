@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navLinks = [
@@ -65,16 +64,11 @@ export default function Navigation() {
           <a
             href="/"
             className="flex items-center focus-moss rounded-md"
-            aria-label="Flatela: return to top"
+            aria-label="Flatela"
           >
-            <Image
-              src="/flatela-logo.svg"
-              alt="Flatela"
-              width={454}
-              height={340}
-              className="h-14 lg:h-20 w-auto object-contain"
-              priority
-            />
+            <span className="font-serif font-medium text-[26px] lg:text-[30px] tracking-[0.02em] text-brown leading-none">
+              Flatela
+            </span>
           </a>
 
           {/* Desktop links */}
@@ -131,13 +125,9 @@ export default function Navigation() {
               aria-label="Navigation menu"
             >
               <div className="flex items-center justify-between mb-12">
-                <Image
-                  src="/flatela-logo.svg"
-                  alt="Flatela"
-                  width={454}
-                  height={340}
-                  className="h-14 w-auto object-contain"
-                />
+                <a href="/" onClick={closeDrawer} aria-label="Flatela" className="font-serif font-medium text-[26px] tracking-[0.02em] text-brown leading-none focus-moss rounded-md">
+                  Flatela
+                </a>
                 <button
                   onClick={closeDrawer}
                   className="p-2 text-brown focus-moss rounded"
