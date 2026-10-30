@@ -26,7 +26,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 lg:px-12 pt-16 pb-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8 pb-12 border-b border-green">
           <div className="lg:col-span-1">
-            <Image unoptimized src="/flatela-wordmark-reversed-leaf.svg" alt="Flatela" width={256} height={100} className="mb-4 w-56 lg:w-64 h-auto" />
+            <Image unoptimized src="/flatela-wordmark-cream-leaf.svg" alt="Flatela" width={104} height={28} className="mb-4 h-[28px] w-auto" />
             <p className="font-sans text-body-sm text-moss-pale leading-relaxed max-w-xs">
               FLATELA (PTY) LTD is a holding company registered in 2026. It will
               house intended pillar projects. The six names below are intended
