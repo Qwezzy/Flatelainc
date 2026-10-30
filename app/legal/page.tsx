@@ -44,13 +44,18 @@ export default function LegalPage() {
         What this site describes
       </h2>
       <p className="font-sans text-body text-ink leading-[1.65]">
-        FLATELA (PTY) LTD is a holding company registered in 2026 that will
-        house intended pillar projects: Property, Data &amp; Technology, Retail,
-        Travel, Energy, and Education. Those six names are intended lines of
-        work, not live trading divisions. Nothing on this site is an offer of
-        financial services, travel ticketing, energy installation, education
-        programmes, or data-processing services unless and until a specific
-        engagement is agreed in writing.
+        FLATELA (PTY) LTD is a holding company registered in 2026. Its pillar
+        projects are Property, Data &amp; Technology, Retail, Travel, Energy, and
+        Education. Under Data &amp; Technology we offer IT services through our
+        offer pages on cpitu.com (geo., firms., site. and fix.cpitu.com), which
+        collect sign-ups through forms. Those offers are governed by our{" "}
+        <a className="text-moss underline" href="/offer-terms">offer terms</a>,
+        and personal information is handled under our{" "}
+        <a className="text-moss underline" href="/privacy">privacy notice</a>.
+        The other pillars are intended lines of work, not live trading
+        divisions. Nothing on this site is an offer of financial services,
+        travel ticketing, energy installation or education programmes unless
+        and until a specific engagement is agreed in writing.
       </p>
 
       <h2 className="font-serif-display font-semibold text-display-md text-brown pt-4">

@@ -10,7 +10,7 @@ const pillarLinks = [
 ];
 
 const roadmapLinks = [
-  { label: "Year 1 — Foundation", href: "/#roadmap" },
+  { label: "Year 1: Foundation", href: "/#roadmap" },
   { label: "Year 2 — Scale & connection", href: "/#roadmap" },
   { label: "Year 3 — Consolidation", href: "/#roadmap" },
 ];
