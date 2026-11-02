@@ -4,15 +4,15 @@ import Footer from "@/components/layout/Footer";
 import PropertyPillar from "@/components/sections/PropertyPillar";
 
 const description =
-  "Property is an intended line of FLATELA (PTY) LTD. Flatela plans residential renovation and managed rental portfolios — not a live landlord or estate agent.";
+  "Property is an intended line of FLATELA (PTY) LTD. Flatela plans residential renovation and managed rental portfolios, not a live landlord or estate agent.";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Property — Flatela · FLATELA (PTY) LTD",
+    absolute: "Property | Flatela · FLATELA (PTY) LTD",
   },
   description,
   openGraph: {
-    title: "Property — Flatela · FLATELA (PTY) LTD",
+    title: "Property | Flatela · FLATELA (PTY) LTD",
     description,
     url: "https://flatelainc.co.za/property",
     siteName: "Flatela",

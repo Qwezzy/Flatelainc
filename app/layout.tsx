@@ -23,8 +23,8 @@ const description =
 export const metadata: Metadata = {
   metadataBase: new URL("https://flatelainc.co.za"),
   title: {
-    default: "Flatela — FLATELA (PTY) LTD",
-    template: "%s — Flatela",
+    default: "Flatela | FLATELA (PTY) LTD",
+    template: "%s | Flatela",
   },
   description,
   openGraph: {
@@ -32,7 +32,6 @@ export const metadata: Metadata = {
     description,
     url: "https://flatelainc.co.za",
     siteName: "Flatela",
-    images: ["/og-image.png"],
     locale: "en_ZA",
     type: "website",
   },

@@ -18,7 +18,7 @@ function SynergyCard({ synergy, index }: { synergy: typeof SYNERGIES[number]; in
           <span className="font-serif font-semibold text-brown text-[16px]">
             {pillarA.name}
           </span>
-          <span className="text-moss font-light">—</span>
+          <span className="text-moss font-light">·</span>
           <span className="font-serif font-semibold text-brown text-[16px]">
             {pillarB.name}
           </span>
@@ -147,7 +147,7 @@ export default function Synergies() {
         <SectionHeader
           eyebrow="03  ·  How The Pillars Connect"
           headline="Stronger together than apart."
-          subhead="If the intended pillars are built, the power of the holdco is how they could feed one another. These are planned connections — not executed divisions."
+          subhead="If the intended pillars are built, the power of the holdco is how they could feed one another. These are planned connections, not executed divisions."
           ornament="03"
         />
 

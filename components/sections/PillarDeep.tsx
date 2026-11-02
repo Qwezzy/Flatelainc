@@ -357,7 +357,7 @@ export default function PillarDeep() {
                       {pillar.summary}
                     </p>
                     <p className="font-sans text-body text-ink leading-[1.65]">
-                      As this intended line takes shape, the goal is to become a recognisable name in South Africa — building trust through quality, community investment, and the advantage of sitting inside a family holding company that can share resources and resolve. That is an aim, not a present-tense claim that the line already trades.
+                      As this intended line takes shape, the goal is to become a recognisable name in South Africa, building trust through quality, community investment, and the advantage of sitting inside a family holding company that can share resources and resolve. That is an aim, not a present-tense claim that the line already trades.
                     </p>
                   </Reveal>
 

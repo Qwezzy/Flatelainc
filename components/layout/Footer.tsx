@@ -10,9 +10,9 @@ const pillarLinks = [
 ];
 
 const roadmapLinks = [
-  { label: "Year 1 — Foundation", href: "/#roadmap" },
-  { label: "Year 2 — Scale & connection", href: "/#roadmap" },
-  { label: "Year 3 — Consolidation", href: "/#roadmap" },
+  { label: "Year 1: Foundation", href: "/#roadmap" },
+  { label: "Year 2: Scale & connection", href: "/#roadmap" },
+  { label: "Year 3: Consolidation", href: "/#roadmap" },
 ];
 
 const legalLinks = [
@@ -26,13 +26,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 lg:px-12 pt-16 pb-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-12 lg:gap-8 pb-12 border-b border-green">
           <div className="lg:col-span-1">
-            <Image
-              src="/flatela-logo-on-dark.svg"
-              alt="Flatela"
-              width={454}
-              height={340}
-              className="mb-4 w-64 lg:w-72 h-auto"
-            />
+            <Image unoptimized src="/flatela-wordmark-cream-leaf.svg" alt="Flatela" width={104} height={28} className="mb-4 h-[28px] w-auto" />
             <p className="font-sans text-body-sm text-moss-pale leading-relaxed max-w-xs">
               FLATELA (PTY) LTD is a holding company registered in 2026. It will
               house intended pillar projects. The six names below are intended
@@ -41,7 +35,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-moss mb-4">Intended pillars</p>
+            <p className="eyebrow !text-cream/[0.63] mb-4">Intended pillars</p>
             <ul className="flex flex-col gap-2.5">
               {pillarLinks.map((l) => (
                 <li key={l.href}>
@@ -57,7 +51,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-moss mb-4">Roadmap</p>
+            <p className="eyebrow !text-cream/[0.63] mb-4">Roadmap</p>
             <ul className="flex flex-col gap-2.5">
               {roadmapLinks.map((l) => (
                 <li key={l.label}>
@@ -73,7 +67,7 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="eyebrow text-moss mb-4">Legal</p>
+            <p className="eyebrow !text-cream/[0.63] mb-4">Legal</p>
             <ul className="flex flex-col gap-2.5">
               {legalLinks.map((l) => (
                 <li key={l.label}>
@@ -100,7 +94,7 @@ export default function Footer() {
           <p className="font-sans text-body-sm text-moss-pale">
             © 2026 FLATELA (PTY) LTD · 2026/291183/07 · Gauteng, South Africa
           </p>
-          <p className="font-serif italic text-body-sm text-green">
+          <p className="font-serif italic text-body-sm text-cream/75">
             Building something that will outlast us.
           </p>
         </div>
